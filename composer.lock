@@ -1,0 +1,99 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "f0fb5b87965647375901eaf96176c6a3",
+    "packages": [
+        {
+            "name": "seoshop/seoshop-php",
+            "version": "v1.5.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/SEOshop/API-PHP-Client.git",
+                "reference": "1440118887e58f11608a740021417843d78abb4f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/SEOshop/API-PHP-Client/zipball/1440118887e58f11608a740021417843d78abb4f",
+                "reference": "1440118887e58f11608a740021417843d78abb4f",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "ext-mbstring": "*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src/WebshopappApiClient.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "SEOshop and contributors",
+                    "homepage": "https://github.com/SEOshop/API-PHP-Client/contributors"
+                }
+            ],
+            "description": "PHP client for the SEOshop API",
+            "homepage": "http://developers.seoshop.com",
+            "keywords": [
+                "api",
+                "client",
+                "php"
+            ],
+            "time": "2015-04-02 08:55:52"
+        },
+        {
+            "name": "zendesk/zendesk_api_client_php",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/zendesk/zendesk_api_client_php.git",
+                "reference": "08aa372545bdf44f9e34cd007df61d69c5d2443f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/zendesk/zendesk_api_client_php/zipball/08aa372545bdf44f9e34cd007df61d69c5d2443f",
+                "reference": "08aa372545bdf44f9e34cd007df61d69c5d2443f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.1"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.5.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Zendesk\\API\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache License Version 2.0"
+            ],
+            "description": "PHP Client for Zendesk REST API. See http://developer.zendesk.com/api-docs",
+            "homepage": "https://github.com/zendesk/zendesk_api_client_php",
+            "time": "2015-04-08 08:46:37"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "zendesk/zendesk_api_client_php": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
