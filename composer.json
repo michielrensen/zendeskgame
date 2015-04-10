@@ -1,0 +1,6 @@
+{
+  "require" : {
+    "seoshop/seoshop-php": "~1.5",
+    "zendesk/zendesk_api_client_php": "dev-master"
+  }
+}
