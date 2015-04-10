@@ -1,6 +1,13 @@
 {
   "require" : {
     "seoshop/seoshop-php": "~1.5",
-    "zendesk/zendesk_api_client_php": "dev-master"
+    "zendesk/zendesk_api_client_php": "dev-master",
+    "silex/silex": "~1.2",
+    "doctrine/dbal":"~2.2"
+  },
+  "autoload" : {
+    "psr-4": {
+      "Seoshop\\": "app/"
+    }
   }
 }
