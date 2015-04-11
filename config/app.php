@@ -1,7 +1,7 @@
 <?php
 
 define('HOST', 'localhost');
-define('DATABASE', 'homestead');
+define('DATABASE', 'zendeskgame');
 define('USERNAME', 'homestead');
 define('PASSWORD', 'secret');
 define('SEOSHOP_APIKEY', '');

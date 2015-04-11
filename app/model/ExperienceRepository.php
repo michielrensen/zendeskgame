@@ -3,12 +3,13 @@
 namespace Seoshop\Model;
 
 use Seoshop\Model\Contracts\ExperienceRepositoryInterface;
+use Doctrine\DBAL\Connection;
 
 class ExperienceRepository implements ExperienceRepositoryInterface{
 
     protected $db;
 
-    public function __construct($db)
+    public function __construct(Connection $db)
     {
         $this->db = $db;
     }

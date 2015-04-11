@@ -1,0 +1,7 @@
+{% extends "default.twig" %}
+
+{% block content %}
+  {% for item in list %}
+    {{ item.user_id }}: {{ item.experience }}<br/>
+  {% endfor %}
+{% endblock %}

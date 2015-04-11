@@ -1,25 +1,28 @@
 <?php
 
 require '../vendor/autoload.php';
-require '../app/config.php';
+require '../config/app.php';
 
 $app = new Silex\Application();
-$app['debug'] = true;
+$app['debug'] = DEBUG;
 
 /* Registering services */
 
 $app->register(new Silex\Provider\DoctrineServiceProvider(), [
     'db.options' => [
         'driver'    => 'pdo_mysql',
-        'host'      => 'localhost',
-        'dbname'    => 'zendeskgame',
-        'user'      => 'homestead',
-        'password'  => 'secret',
+        'host'      => HOST,
+        'dbname'    => DATABASE,
+        'user'      => USERNAME,
+        'password'  => PASSWORD,
         'charset'   => 'utf8',
     ]
 ]);
 
 $app->register(new Silex\Provider\ServiceControllerServiceProvider());
+$app->register(new Silex\Provider\TwigServiceProvider(), array(
+    'twig.path' => __DIR__.'/../resources/views',
+));
 
 /* Defining Dependencies */
 

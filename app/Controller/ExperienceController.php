@@ -16,9 +16,11 @@ class ExperienceController {
         $this->repository = $repository;
     }
 
-    public function indexAction()
+    public function indexAction(Request $request, Application $app)
     {
-        return new Response(print_r($this->repository->getList(),true));
+        return $app['twig']->render('experience/index.twig', [
+            'list' => $this->repository->getList()
+        ], new Response());
     }
 
     public function showAction(Request $request, Application $app, $userid)
