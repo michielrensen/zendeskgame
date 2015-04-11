@@ -6,29 +6,35 @@ require '../app/config.php';
 $app = new Silex\Application();
 $app['debug'] = true;
 
-$app->register(new Silex\Provider\DoctrineServiceProvider(), array(
-    'db.options' => array(
+/* Registering services */
+
+$app->register(new Silex\Provider\DoctrineServiceProvider(), [
+    'db.options' => [
         'driver'    => 'pdo_mysql',
         'host'      => 'localhost',
         'dbname'    => 'zendeskgame',
         'user'      => 'homestead',
         'password'  => 'secret',
         'charset'   => 'utf8',
-    ),
-));
+    ]
+]);
 
-$app->get('/user/{user_id}', function($user_id) use ($app) {
-    $model = new \Seoshop\Model\Experience($app['db']);
-    $experience = $model->findByUserId(1);
+$app->register(new Silex\Provider\ServiceControllerServiceProvider());
 
-    return print_r($experience, true);
+/* Defining Dependencies */
+
+$app['experience.repository'] = $app->share(function() use ($app){
+   return new Seoshop\Model\ExperienceRepository($app['db']);
 });
 
-$app->get('/user/mutate/{userid}/{mutation}', function($userid, $mutation) use ($app) {
-    $model = new \Seoshop\Model\Experience($app['db']);
-    $experience = $model->mutate($userid, $mutation);
-
-    return print_r($experience, true);
+$app['experience.controller'] = $app->share(function() use ($app) {
+    return new Seoshop\Controller\ExperienceController($app['experience.repository']);
 });
+
+/* Routing */
+
+$app->get('/experience', 'experience.controller:indexAction');
+$app->get('/experience/show/{userid}', 'experience.controller:showAction');
+$app->get('/experience/update/{userid}/{mutation}', 'experience.controller:updateAction');
 
 $app->run();
