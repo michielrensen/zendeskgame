@@ -21,7 +21,7 @@ module.exports = function(grunt) {
       },
       js_frontend: {
         src: [
-          './node_modules/jquery/jquery.js',
+          './node_modules/jquery/dist/jquery.js',
           './node_modules/bootstrap/dist/js/bootstrap.js',
           './resources/assets/javascript/frontend.js'
         ],
@@ -30,7 +30,7 @@ module.exports = function(grunt) {
     },
     uglify: {
       options: {
-        mangle: false  // Use if you want the names of your functions and variables unchanged
+        mangle: true  // Use if you want the names of your functions and variables unchanged
       },
       frontend: {
         files: {
@@ -42,7 +42,7 @@ module.exports = function(grunt) {
       js_frontend: {
         files: [
           //watched files
-          './node_modules/jquery/jquery.js',
+          './node_modules/jquery/dist/jquery.js',
           './node_modules/bootstrap/dist/js/bootstrap.js',
           './resources/assets/javascript/frontend.js'
         ],
