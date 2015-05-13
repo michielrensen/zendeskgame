@@ -14,5 +14,7 @@
     "psr-4": {
       "Seoshop\\": "app/"
     }
-  }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
 }

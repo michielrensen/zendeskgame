@@ -7,35 +7,42 @@ use Doctrine\DBAL\Connection;
 
 class ExperienceRepository implements ExperienceRepositoryInterface{
 
-    protected $db;
+    protected $connection;
 
-    public function __construct(Connection $db)
+    public function __construct(Connection $connection)
     {
-        $this->db = $db;
+        $this->connection = $connection;
     }
 
     public function getList()
     {
-        $list = $this->db->fetchAll('SELECT user_id, SUM(mutation) as experience FROM experience GROUP BY user_id');
+        $list = $this->connection->fetchAll('
+           SELECT users.name,
+                  experience.user_id,
+                  SUM(experience.mutation) as experience
+            FROM experience
+      INNER JOIN users
+              ON experience.user_id = users.id
+        GROUP BY user_id');
 
         return $list;
     }
 
     public function getByUserId($userid)
     {
-        $experience = $this->db->fetchAssoc('SELECT SUM(mutation) as experience FROM experience WHERE user_id = ?', array((int) $userid));
+        $experience = $this->connection->fetchAssoc('SELECT SUM(mutation) as experience FROM experience WHERE user_id = ?', [(int) $userid]);
 
         return $experience['experience'];
     }
 
     public function mutate($userid, $mutation)
     {
-        $this->db->insert('experience', array(
+        $this->connection->insert('experience', [
             'user_id' => (int) $userid,
             'mutation' => (int) $mutation,
             'created_at' => date('Y-m-d H:i:s'),
             'updated_at' => date('Y-m-d H:i:s'),
-        ));
+        ]);
 
         return true;
     }
