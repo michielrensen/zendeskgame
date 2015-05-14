@@ -6,7 +6,7 @@ Dotenv::load(__DIR__ . '/../');
 $app = new Silex\Application();
 $app['debug'] = getenv('DEBUG');
 
-/* Registering services */
+/* Services */
 
 $app->register(new Silex\Provider\DoctrineServiceProvider(), [
     'db.options' => [
@@ -20,22 +20,18 @@ $app->register(new Silex\Provider\DoctrineServiceProvider(), [
 ]);
 
 $app->register(new Silex\Provider\ServiceControllerServiceProvider());
-$app->register(new Silex\Provider\TwigServiceProvider(), array(
-    'twig.path' => __DIR__.'/../resources/views',
-));
+$app->register(new Silex\Provider\TwigServiceProvider(), ['twig.path' => __DIR__.'/../resources/views',]);
+$app->register(new Component\Service\ServiceServiceProvider());
+$app->register(new Component\Experience\ExperienceServiceProvider());
 
-/* Defining Dependencies */
-
-$app['experience.repository'] = $app->share(function() use ($app){
-   return new Seoshop\Model\ExperienceRepository($app['db']);
-});
+/* Controllers */
 
 $app['experience.controller'] = $app->share(function() use ($app) {
-    return new Seoshop\Controller\ExperienceController($app, $app['experience.repository']);
+    return new App\Experience\Controller\ExperienceController($app, $app['experience.repository']);
 });
 
 $app['webhook.controller'] = $app->share(function() use ($app) {
-    return new Seoshop\Controller\WebhookController($app);
+    return new App\Webhook\Controller\WebhookController($app);
 });
 
 /* Routing */
