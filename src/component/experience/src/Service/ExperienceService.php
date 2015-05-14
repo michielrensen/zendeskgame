@@ -18,4 +18,19 @@ class ExperienceService
         $this->repository = $repository;
     }
 
+    public function findAll()
+    {
+        return $this->repository->get();
+    }
+
+    public function findById($id)
+    {
+        return $this->repository->getByUserId($id);
+    }
+
+    public function mutate($userid, $mutation)
+    {
+        return $this->repository->mutate($userid, $mutation);
+    }
+
 }

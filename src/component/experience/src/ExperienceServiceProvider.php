@@ -6,7 +6,7 @@ use Component\Experience\Service\ExperienceService;
 use Silex\Application;
 use Silex\ServiceProviderInterface;
 
-class ExperienceServiceProvider extends ServiceProviderInterface
+class ExperienceServiceProvider implements ServiceProviderInterface
 {
     public function register(Application $app)
     {

@@ -2,7 +2,7 @@
 
 namespace App\Experience\Controller;
 
-use Component\Experience\Model\Repository\ExperienceRepository;
+use Component\Experience\Service\ExperienceService;
 use Silex\Application;
 use Symfony\Component\HttpFoundation\Response;
 
@@ -10,24 +10,24 @@ class ExperienceController {
 
     /** @var Application */
     protected $app;
-    protected $repository;
+    protected $service;
 
-    public function __construct(Application $app, ExperienceRepository $repository)
+    public function __construct(Application $app, ExperienceService $service)
     {
         $this->app = $app;
-        $this->repository = $repository;
+        $this->service= $service;
     }
 
     public function indexAction()
     {
         return $this->app['twig']->render('experience/index.twig', [
-            'list' => $this->repository->getList()
+            'list' => $this->service->findAll()
         ], new Response());
     }
 
     public function showAction($userid)
     {
-        return new Response($this->repository->getByUserId($userid));
+        return new Response($this->service->findById($userid));
     }
 
     public function updateAction($userid, $mutation)

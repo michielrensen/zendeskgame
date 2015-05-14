@@ -15,7 +15,7 @@ class ExperienceRepository implements ExperienceRepositoryInterface
         $this->connection = $connection;
     }
 
-    public function getList()
+    public function get()
     {
         $list = $this->connection->fetchAll('
            SELECT users.name,
