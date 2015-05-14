@@ -1,7 +1,7 @@
 <?php
 
 require '../vendor/autoload.php';
-Dotenv::load(__DIR__ . '../');
+Dotenv::load(__DIR__ . '/../');
 
 $app = new Silex\Application();
 $app['debug'] = getenv('DEBUG');
