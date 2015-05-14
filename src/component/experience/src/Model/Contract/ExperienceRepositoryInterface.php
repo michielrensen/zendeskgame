@@ -1,8 +1,9 @@
 <?php
 
-namespace Seoshop\Model\Contracts;
+namespace Component\Experience\Model\Contract;
 
-interface ExperienceRepositoryInterface {
+interface ExperienceRepositoryInterface
+{
 
     public function getList();
     public function getByUserId($userid);

@@ -1,10 +1,9 @@
 <?php
 
-namespace Seoshop\Controller;
+namespace App\Experience\Controller;
 
-use Seoshop\Model\ExperienceRepository;
+use Component\Experience\Model\Repository\ExperienceRepository;
 use Silex\Application;
-use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
 class ExperienceController {

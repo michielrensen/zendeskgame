@@ -1,11 +1,12 @@
 <?php
 
-namespace Seoshop\Model;
+namespace Component\Experience\Model\Repository;
 
-use Seoshop\Model\Contracts\ExperienceRepositoryInterface;
+use Component\Experience\Model\Contract\ExperienceRepositoryInterface;
 use Doctrine\DBAL\Connection;
 
-class ExperienceRepository implements ExperienceRepositoryInterface{
+class ExperienceRepository implements ExperienceRepositoryInterface
+{
 
     protected $connection;
 
