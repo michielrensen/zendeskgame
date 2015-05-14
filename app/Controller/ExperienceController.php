@@ -9,6 +9,7 @@ use Symfony\Component\HttpFoundation\Response;
 
 class ExperienceController {
 
+    /** @var Application */
     protected $app;
     protected $repository;
 

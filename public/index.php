@@ -34,10 +34,16 @@ $app['experience.controller'] = $app->share(function() use ($app) {
     return new Seoshop\Controller\ExperienceController($app, $app['experience.repository']);
 });
 
+$app['webhook.controller'] = $app->share(function() use ($app) {
+    return new Seoshop\Controller\WebhookController($app);
+});
+
 /* Routing */
 
 $app->get('/experience/', 'experience.controller:indexAction');
 $app->get('/experience/show/{userid}', 'experience.controller:showAction');
 $app->get('/experience/update/{userid}/{mutation}', 'experience.controller:updateAction');
+
+$app->post('/webhook/{service}', 'webhook.controller:handleAction');
 
 $app->run();
