@@ -1,0 +1,685 @@
+# Logfile created on 2015-05-14 13:15:02 +0200 by logger.rb/41954
+[0;34;49mINFO[0m ---------------------------------------------------------------------------
+[0;34;49mINFO[0m START 2015-05-14 13:15:02 +0200 cap production deploy
+[0;34;49mINFO[0m ---------------------------------------------------------------------------
+[0;34;49mINFO[0m [[0;32;49mec021821[0m] Running [1;33;49m/usr/bin/env mkdir -p /tmp/zendeskgame/[0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49mec021821[0m] Command: [0;34;49m/usr/bin/env mkdir -p /tmp/zendeskgame/[0m
+[0;34;49mINFO[0m [[0;32;49m803fd464[0m] Finished in 20.891 seconds with exit status 0 ([1;32;49msuccessful[0m).
+[0;30;49mDEBUG[0m Uploading /tmp/zendeskgame/git-ssh.sh 0.0%
+[0;34;49mINFO[0m Uploading /tmp/zendeskgame/git-ssh.sh 100.0%
+[0;34;49mINFO[0m [[0;32;49m6be908ee[0m] Running [1;33;49m/usr/bin/env chmod +x /tmp/zendeskgame/git-ssh.sh[0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49m6be908ee[0m] Command: [0;34;49m/usr/bin/env chmod +x /tmp/zendeskgame/git-ssh.sh[0m
+[0;34;49mINFO[0m [[0;32;49m3f37e1f2[0m] Finished in 5.089 seconds with exit status 0 ([1;32;49msuccessful[0m).
+[0;34;49mINFO[0m [[0;32;49m8aa51900[0m] Running [1;33;49m/usr/bin/env git ls-remote --heads git@github.com:michielrensen/zendeskgame.git[0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49m8aa51900[0m] Command: [0;34;49m( GIT_ASKPASS=/bin/echo GIT_SSH=/tmp/zendeskgame/git-ssh.sh /usr/bin/env git ls-remote --heads git@github.com:michielrensen/zendeskgame.git )[0m
+[0;30;49mDEBUG[0m [[0;32;49m5ef6d01a[0m] [0;31;49m	Permission denied (publickey).
+[0m[0;30;49mDEBUG[0m [[0;32;49m8d01fc9c[0m] [0;31;49m	fatal: Could not read from remote repository.
+[0m[0;30;49mDEBUG[0m [[0;32;49m8d01fc9c[0m] [0;31;49m	
+[0m[0;30;49mDEBUG[0m [[0;32;49m8d01fc9c[0m] [0;31;49m	Please make sure you have the correct access rights
+[0m[0;30;49mDEBUG[0m [[0;32;49m8d01fc9c[0m] [0;31;49m	and the repository exists.
+[0m[0;34;49mINFO[0m ---------------------------------------------------------------------------
+[0;34;49mINFO[0m START 2015-05-14 13:25:28 +0200 cap production
+[0;34;49mINFO[0m ---------------------------------------------------------------------------
+[0;34;49mINFO[0m ---------------------------------------------------------------------------
+[0;34;49mINFO[0m START 2015-05-14 13:26:07 +0200 cap production deploy
+[0;34;49mINFO[0m ---------------------------------------------------------------------------
+[0;34;49mINFO[0m [[0;32;49m34bf452d[0m] Running [1;33;49m/usr/bin/env mkdir -p /tmp/zendeskgame/[0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49m34bf452d[0m] Command: [0;34;49m/usr/bin/env mkdir -p /tmp/zendeskgame/[0m
+[0;34;49mINFO[0m [[0;32;49ma4e34d4e[0m] Finished in 9.150 seconds with exit status 0 ([1;32;49msuccessful[0m).
+[0;30;49mDEBUG[0m Uploading /tmp/zendeskgame/git-ssh.sh 0.0%
+[0;34;49mINFO[0m Uploading /tmp/zendeskgame/git-ssh.sh 100.0%
+[0;34;49mINFO[0m [[0;32;49m47583b50[0m] Running [1;33;49m/usr/bin/env chmod +x /tmp/zendeskgame/git-ssh.sh[0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49m47583b50[0m] Command: [0;34;49m/usr/bin/env chmod +x /tmp/zendeskgame/git-ssh.sh[0m
+[0;34;49mINFO[0m [[0;32;49m2a623099[0m] Finished in 5.916 seconds with exit status 0 ([1;32;49msuccessful[0m).
+[0;34;49mINFO[0m [[0;32;49mfb7b23dd[0m] Running [1;33;49m/usr/bin/env git ls-remote --heads git@github.com:michielrensen/zendeskgame.git[0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49mfb7b23dd[0m] Command: [0;34;49m( GIT_ASKPASS=/bin/echo GIT_SSH=/tmp/zendeskgame/git-ssh.sh /usr/bin/env git ls-remote --heads git@github.com:michielrensen/zendeskgame.git )[0m
+[0;30;49mDEBUG[0m [[0;32;49m4c192b1a[0m] [0;31;49m	Permission denied (publickey).
+[0m[0;30;49mDEBUG[0m [[0;32;49mfb88c99a[0m] [0;31;49m	fatal: Could not read from remote repository.
+[0m[0;30;49mDEBUG[0m [[0;32;49mfb88c99a[0m] [0;31;49m	
+[0m[0;30;49mDEBUG[0m [[0;32;49mfb88c99a[0m] [0;31;49m	Please make sure you have the correct access rights
+[0m[0;30;49mDEBUG[0m [[0;32;49mfb88c99a[0m] [0;31;49m	and the repository exists.
+[0m[0;34;49mINFO[0m ---------------------------------------------------------------------------
+[0;34;49mINFO[0m START 2015-05-14 13:30:04 +0200 cap production deploy
+[0;34;49mINFO[0m ---------------------------------------------------------------------------
+[0;34;49mINFO[0m [[0;32;49mef8f767f[0m] Running [1;33;49m/usr/bin/env mkdir -p /tmp/zendeskgame/[0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49mef8f767f[0m] Command: [0;34;49m/usr/bin/env mkdir -p /tmp/zendeskgame/[0m
+[0;34;49mINFO[0m [[0;32;49m596a05ba[0m] Finished in 9.619 seconds with exit status 0 ([1;32;49msuccessful[0m).
+[0;30;49mDEBUG[0m Uploading /tmp/zendeskgame/git-ssh.sh 0.0%
+[0;34;49mINFO[0m Uploading /tmp/zendeskgame/git-ssh.sh 100.0%
+[0;34;49mINFO[0m [[0;32;49m6e854cfd[0m] Running [1;33;49m/usr/bin/env chmod +x /tmp/zendeskgame/git-ssh.sh[0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49m6e854cfd[0m] Command: [0;34;49m/usr/bin/env chmod +x /tmp/zendeskgame/git-ssh.sh[0m
+[0;34;49mINFO[0m [[0;32;49m1752a486[0m] Finished in 6.891 seconds with exit status 0 ([1;32;49msuccessful[0m).
+[0;34;49mINFO[0m [[0;32;49m34099335[0m] Running [1;33;49m/usr/bin/env git ls-remote --heads git@github.com:michielrensen/zendeskgame.git[0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49m34099335[0m] Command: [0;34;49m( GIT_ASKPASS=/bin/echo GIT_SSH=/tmp/zendeskgame/git-ssh.sh /usr/bin/env git ls-remote --heads git@github.com:michielrensen/zendeskgame.git )[0m
+[0;30;49mDEBUG[0m [[0;32;49m002a5c67[0m] [0;31;49m	Permission denied (publickey).
+[0m[0;30;49mDEBUG[0m [[0;32;49ma54919f9[0m] [0;31;49m	fatal: Could not read from remote repository.
+[0m[0;30;49mDEBUG[0m [[0;32;49ma54919f9[0m] [0;31;49m	
+[0m[0;30;49mDEBUG[0m [[0;32;49ma54919f9[0m] [0;31;49m	Please make sure you have the correct access rights
+[0m[0;30;49mDEBUG[0m [[0;32;49ma54919f9[0m] [0;31;49m	and the repository exists.
+[0m[0;34;49mINFO[0m ---------------------------------------------------------------------------
+[0;34;49mINFO[0m START 2015-05-14 13:45:23 +0200 cap production deploy
+[0;34;49mINFO[0m ---------------------------------------------------------------------------
+[0;34;49mINFO[0m [[0;32;49m89cec192[0m] Running [1;33;49m/usr/bin/env mkdir -p /tmp/zendeskgame/[0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49m89cec192[0m] Command: [0;34;49m/usr/bin/env mkdir -p /tmp/zendeskgame/[0m
+[0;34;49mINFO[0m [[0;32;49ma8147f60[0m] Finished in 8.897 seconds with exit status 0 ([1;32;49msuccessful[0m).
+[0;30;49mDEBUG[0m Uploading /tmp/zendeskgame/git-ssh.sh 0.0%
+[0;34;49mINFO[0m Uploading /tmp/zendeskgame/git-ssh.sh 100.0%
+[0;34;49mINFO[0m [[0;32;49mc6d55658[0m] Running [1;33;49m/usr/bin/env chmod +x /tmp/zendeskgame/git-ssh.sh[0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49mc6d55658[0m] Command: [0;34;49m/usr/bin/env chmod +x /tmp/zendeskgame/git-ssh.sh[0m
+[0;34;49mINFO[0m [[0;32;49m851ef6e7[0m] Finished in 4.512 seconds with exit status 0 ([1;32;49msuccessful[0m).
+[0;34;49mINFO[0m [[0;32;49m6b702a1c[0m] Running [1;33;49m/usr/bin/env git ls-remote --heads git@github.com:michielrensen/zendeskgame.git[0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49m6b702a1c[0m] Command: [0;34;49m( GIT_ASKPASS=/bin/echo GIT_SSH=/tmp/zendeskgame/git-ssh.sh /usr/bin/env git ls-remote --heads git@github.com:michielrensen/zendeskgame.git )[0m
+[0;30;49mDEBUG[0m [[0;32;49m829d91a1[0m] [0;32;49m	0ad8bd80a340f3980e291d6e368ae35ff72ecd7e	refs/heads/master
+[0m[0;30;49mDEBUG[0m [[0;32;49m53b48b1e[0m] [0;32;49m	0ad8bd80a340f3980e291d6e368ae35ff72ecd7e	refs/heads/master
+[0m[0;34;49mINFO[0m [[0;32;49m53b48b1e[0m] Finished in 5.769 seconds with exit status 0 ([1;32;49msuccessful[0m).
+[0;34;49mINFO[0m [[0;32;49m60b48830[0m] Running [1;33;49m/usr/bin/env mkdir -p /var/www/zendeskgame.michielrensen.nl/shared /var/www/zendeskgame.michielrensen.nl/releases[0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49m60b48830[0m] Command: [0;34;49m/usr/bin/env mkdir -p /var/www/zendeskgame.michielrensen.nl/shared /var/www/zendeskgame.michielrensen.nl/releases[0m
+[0;30;49mDEBUG[0m [[0;32;49m5f1effd0[0m] [0;31;49m	mkdir: [0m
+[0;30;49mDEBUG[0m [[0;32;49mdca84944[0m] [0;31;49m	cannot create directory ‘/var/www/zendeskgame.michielrensen.nl/shared’[0m
+[0;30;49mDEBUG[0m [[0;32;49mfa4f573d[0m] [0;31;49m	: Permission denied[0m
+[0;30;49mDEBUG[0m [[0;32;49m82f0f1d6[0m] [0;31;49m	
+[0m[0;30;49mDEBUG[0m [[0;32;49m64fece8a[0m] [0;31;49m	mkdir: [0m
+[0;30;49mDEBUG[0m [[0;32;49m66fcdc13[0m] [0;31;49m	cannot create directory ‘/var/www/zendeskgame.michielrensen.nl/releases’[0m
+[0;30;49mDEBUG[0m [[0;32;49mb8d2c913[0m] [0;31;49m	: Permission denied[0m
+[0;30;49mDEBUG[0m [[0;32;49mb0714dcd[0m] [0;31;49m	
+[0m[0;34;49mINFO[0m ---------------------------------------------------------------------------
+[0;34;49mINFO[0m START 2015-05-14 13:49:58 +0200 cap production deploy
+[0;34;49mINFO[0m ---------------------------------------------------------------------------
+[0;34;49mINFO[0m [[0;32;49m2cc28d81[0m] Running [1;33;49m/usr/bin/env mkdir -p /tmp/zendeskgame/[0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49m2cc28d81[0m] Command: [0;34;49m/usr/bin/env mkdir -p /tmp/zendeskgame/[0m
+[0;34;49mINFO[0m ---------------------------------------------------------------------------
+[0;34;49mINFO[0m START 2015-05-14 13:50:26 +0200 cap production deploy
+[0;34;49mINFO[0m ---------------------------------------------------------------------------
+[0;34;49mINFO[0m [[0;32;49m117ed29d[0m] Running [1;33;49m/usr/bin/env mkdir -p /tmp/zendeskgame/[0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49m117ed29d[0m] Command: [0;34;49m/usr/bin/env mkdir -p /tmp/zendeskgame/[0m
+[0;34;49mINFO[0m [[0;32;49m7583115b[0m] Finished in 5.162 seconds with exit status 0 ([1;32;49msuccessful[0m).
+[0;30;49mDEBUG[0m Uploading /tmp/zendeskgame/git-ssh.sh 0.0%
+[0;34;49mINFO[0m Uploading /tmp/zendeskgame/git-ssh.sh 100.0%
+[0;34;49mINFO[0m [[0;32;49mef8a73ae[0m] Running [1;33;49m/usr/bin/env chmod +x /tmp/zendeskgame/git-ssh.sh[0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49mef8a73ae[0m] Command: [0;34;49m/usr/bin/env chmod +x /tmp/zendeskgame/git-ssh.sh[0m
+[0;34;49mINFO[0m [[0;32;49mae22270e[0m] Finished in 2.969 seconds with exit status 0 ([1;32;49msuccessful[0m).
+[0;34;49mINFO[0m [[0;32;49m93d3a77b[0m] Running [1;33;49m/usr/bin/env git ls-remote --heads git@github.com:michielrensen/zendeskgame.git[0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49m93d3a77b[0m] Command: [0;34;49m( GIT_ASKPASS=/bin/echo GIT_SSH=/tmp/zendeskgame/git-ssh.sh /usr/bin/env git ls-remote --heads git@github.com:michielrensen/zendeskgame.git )[0m
+[0;30;49mDEBUG[0m [[0;32;49md6b3cebd[0m] [0;32;49m	0ad8bd80a340f3980e291d6e368ae35ff72ecd7e	refs/heads/master
+[0m[0;30;49mDEBUG[0m [[0;32;49m509d73ab[0m] [0;32;49m	0ad8bd80a340f3980e291d6e368ae35ff72ecd7e	refs/heads/master
+[0m[0;34;49mINFO[0m [[0;32;49m509d73ab[0m] Finished in 5.142 seconds with exit status 0 ([1;32;49msuccessful[0m).
+[0;34;49mINFO[0m [[0;32;49ma5a9c34e[0m] Running [1;33;49m/usr/bin/env mkdir -p /var/www/zendeskgame.michielrensen.nl/private/shared /var/www/zendeskgame.michielrensen.nl/private/releases[0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49ma5a9c34e[0m] Command: [0;34;49m/usr/bin/env mkdir -p /var/www/zendeskgame.michielrensen.nl/private/shared /var/www/zendeskgame.michielrensen.nl/private/releases[0m
+[0;34;49mINFO[0m [[0;32;49m3cf3c677[0m] Finished in 5.571 seconds with exit status 0 ([1;32;49msuccessful[0m).
+[0;34;49mINFO[0m [[0;32;49mef77d741[0m] Running [1;33;49m/usr/bin/env mkdir -p /var/www/zendeskgame.michielrensen.nl/private/shared[0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49mef77d741[0m] Command: [0;34;49m/usr/bin/env mkdir -p /var/www/zendeskgame.michielrensen.nl/private/shared[0m
+[0;34;49mINFO[0m [[0;32;49me643eb53[0m] Finished in 3.339 seconds with exit status 0 ([1;32;49msuccessful[0m).
+[0;30;49mDEBUG[0m [[0;32;49m67fe0ef3[0m] Running [1;33;49m/usr/bin/env [ -f /var/www/zendeskgame.michielrensen.nl/private/shared/.env ][0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49m67fe0ef3[0m] Command: [0;34;49m[ -f /var/www/zendeskgame.michielrensen.nl/private/shared/.env ][0m
+[0;30;49mDEBUG[0m [[0;32;49m1af5e217[0m] Finished in 4.761 seconds with exit status 1 ([1;31;49mfailed[0m).
+[0;31;49mERROR[0m linked file /var/www/zendeskgame.michielrensen.nl/private/shared/.env does not exist on zendeskgame.michielrensen.nl
+[0;34;49mINFO[0m ---------------------------------------------------------------------------
+[0;34;49mINFO[0m START 2015-05-14 13:51:50 +0200 cap production deploy
+[0;34;49mINFO[0m ---------------------------------------------------------------------------
+[0;34;49mINFO[0m [[0;32;49mf779864e[0m] Running [1;33;49m/usr/bin/env mkdir -p /tmp/zendeskgame/[0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49mf779864e[0m] Command: [0;34;49m/usr/bin/env mkdir -p /tmp/zendeskgame/[0m
+[0;34;49mINFO[0m [[0;32;49m4c0dd0c2[0m] Finished in 7.907 seconds with exit status 0 ([1;32;49msuccessful[0m).
+[0;30;49mDEBUG[0m Uploading /tmp/zendeskgame/git-ssh.sh 0.0%
+[0;34;49mINFO[0m Uploading /tmp/zendeskgame/git-ssh.sh 100.0%
+[0;34;49mINFO[0m [[0;32;49m354aecc7[0m] Running [1;33;49m/usr/bin/env chmod +x /tmp/zendeskgame/git-ssh.sh[0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49m354aecc7[0m] Command: [0;34;49m/usr/bin/env chmod +x /tmp/zendeskgame/git-ssh.sh[0m
+[0;34;49mINFO[0m [[0;32;49m99e9492d[0m] Finished in 3.288 seconds with exit status 0 ([1;32;49msuccessful[0m).
+[0;34;49mINFO[0m [[0;32;49m11217c6a[0m] Running [1;33;49m/usr/bin/env git ls-remote --heads git@github.com:michielrensen/zendeskgame.git[0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49m11217c6a[0m] Command: [0;34;49m( GIT_ASKPASS=/bin/echo GIT_SSH=/tmp/zendeskgame/git-ssh.sh /usr/bin/env git ls-remote --heads git@github.com:michielrensen/zendeskgame.git )[0m
+[0;30;49mDEBUG[0m [[0;32;49m2ee6cc22[0m] [0;32;49m	0ad8bd80a340f3980e291d6e368ae35ff72ecd7e	refs/heads/master
+[0m[0;30;49mDEBUG[0m [[0;32;49m326573dd[0m] [0;32;49m	0ad8bd80a340f3980e291d6e368ae35ff72ecd7e	refs/heads/master
+[0m[0;34;49mINFO[0m [[0;32;49m326573dd[0m] Finished in 4.748 seconds with exit status 0 ([1;32;49msuccessful[0m).
+[0;34;49mINFO[0m [[0;32;49m9122f030[0m] Running [1;33;49m/usr/bin/env mkdir -p /var/www/zendeskgame.michielrensen.nl/private/shared /var/www/zendeskgame.michielrensen.nl/private/releases[0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49m9122f030[0m] Command: [0;34;49m/usr/bin/env mkdir -p /var/www/zendeskgame.michielrensen.nl/private/shared /var/www/zendeskgame.michielrensen.nl/private/releases[0m
+[0;34;49mINFO[0m [[0;32;49m4b29838d[0m] Finished in 5.620 seconds with exit status 0 ([1;32;49msuccessful[0m).
+[0;34;49mINFO[0m [[0;32;49madee4ff9[0m] Running [1;33;49m/usr/bin/env mkdir -p /var/www/zendeskgame.michielrensen.nl/private/shared[0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49madee4ff9[0m] Command: [0;34;49m/usr/bin/env mkdir -p /var/www/zendeskgame.michielrensen.nl/private/shared[0m
+[0;34;49mINFO[0m [[0;32;49m001750d1[0m] Finished in 3.670 seconds with exit status 0 ([1;32;49msuccessful[0m).
+[0;30;49mDEBUG[0m [[0;32;49m0d7bd9e2[0m] Running [1;33;49m/usr/bin/env [ -f /var/www/zendeskgame.michielrensen.nl/private/shared/.env ][0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49m0d7bd9e2[0m] Command: [0;34;49m[ -f /var/www/zendeskgame.michielrensen.nl/private/shared/.env ][0m
+[0;30;49mDEBUG[0m [[0;32;49md4d3d5bb[0m] Finished in 4.041 seconds with exit status 0 ([1;32;49msuccessful[0m).
+[0;30;49mDEBUG[0m [[0;32;49m77bd047d[0m] Running [1;33;49m/usr/bin/env [ -f /var/www/zendeskgame.michielrensen.nl/private/current/REVISION ][0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49m77bd047d[0m] Command: [0;34;49m[ -f /var/www/zendeskgame.michielrensen.nl/private/current/REVISION ][0m
+[0;30;49mDEBUG[0m [[0;32;49m78091b96[0m] Finished in 3.387 seconds with exit status 1 ([1;31;49mfailed[0m).
+[0;30;49mDEBUG[0m [[0;32;49m8ddc0c40[0m] Running [1;33;49m/usr/bin/env [ -f /var/www/zendeskgame.michielrensen.nl/private/repo/HEAD ][0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49m8ddc0c40[0m] Command: [0;34;49m[ -f /var/www/zendeskgame.michielrensen.nl/private/repo/HEAD ][0m
+[0;30;49mDEBUG[0m [[0;32;49m1c68e31b[0m] Finished in 3.626 seconds with exit status 1 ([1;31;49mfailed[0m).
+[0;30;49mDEBUG[0m [[0;32;49m50da7c5b[0m] Running [1;33;49m/usr/bin/env if test ! -d /var/www/zendeskgame.michielrensen.nl/private; then echo "Directory does not exist '/var/www/zendeskgame.michielrensen.nl/private'" 1>&2; false; fi[0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49m50da7c5b[0m] Command: [0;34;49mif test ! -d /var/www/zendeskgame.michielrensen.nl/private; then echo "Directory does not exist '/var/www/zendeskgame.michielrensen.nl/private'" 1>&2; false; fi[0m
+[0;30;49mDEBUG[0m [[0;32;49mcad76081[0m] Finished in 5.109 seconds with exit status 0 ([1;32;49msuccessful[0m).
+[0;34;49mINFO[0m [[0;32;49m4b386767[0m] Running [1;33;49m/usr/bin/env git clone --mirror git@github.com:michielrensen/zendeskgame.git /var/www/zendeskgame.michielrensen.nl/private/repo[0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49m4b386767[0m] Command: [0;34;49mcd /var/www/zendeskgame.michielrensen.nl/private && ( GIT_ASKPASS=/bin/echo GIT_SSH=/tmp/zendeskgame/git-ssh.sh /usr/bin/env git clone --mirror git@github.com:michielrensen/zendeskgame.git /var/www/zendeskgame.michielrensen.nl/private/repo )[0m
+[0;30;49mDEBUG[0m [[0;32;49m420d29a8[0m] [0;31;49m	Cloning into bare repository '/var/www/zendeskgame.michielrensen.nl/private/repo'...
+[0m[0;30;49mDEBUG[0m [[0;32;49md3dbc288[0m] [0;31;49m	Cloning into bare repository '/var/www/zendeskgame.michielrensen.nl/private/repo'...
+[0m[0;34;49mINFO[0m [[0;32;49md3dbc288[0m] Finished in 5.993 seconds with exit status 0 ([1;32;49msuccessful[0m).
+[0;30;49mDEBUG[0m [[0;32;49m9430515e[0m] Running [1;33;49m/usr/bin/env if test ! -d /var/www/zendeskgame.michielrensen.nl/private/repo; then echo "Directory does not exist '/var/www/zendeskgame.michielrensen.nl/private/repo'" 1>&2; false; fi[0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49m9430515e[0m] Command: [0;34;49mif test ! -d /var/www/zendeskgame.michielrensen.nl/private/repo; then echo "Directory does not exist '/var/www/zendeskgame.michielrensen.nl/private/repo'" 1>&2; false; fi[0m
+[0;30;49mDEBUG[0m [[0;32;49m7b05bda2[0m] Finished in 4.447 seconds with exit status 0 ([1;32;49msuccessful[0m).
+[0;34;49mINFO[0m [[0;32;49m8861b350[0m] Running [1;33;49m/usr/bin/env git remote update[0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49m8861b350[0m] Command: [0;34;49mcd /var/www/zendeskgame.michielrensen.nl/private/repo && ( GIT_ASKPASS=/bin/echo GIT_SSH=/tmp/zendeskgame/git-ssh.sh /usr/bin/env git remote update )[0m
+[0;30;49mDEBUG[0m [[0;32;49me2e59fb1[0m] [0;32;49m	Fetching origin
+[0m[0;30;49mDEBUG[0m [[0;32;49m8e951540[0m] [0;32;49m	Fetching origin
+[0m[0;34;49mINFO[0m [[0;32;49m8e951540[0m] Finished in 7.614 seconds with exit status 0 ([1;32;49msuccessful[0m).
+[0;30;49mDEBUG[0m [[0;32;49m664157aa[0m] Running [1;33;49m/usr/bin/env if test ! -d /var/www/zendeskgame.michielrensen.nl/private/repo; then echo "Directory does not exist '/var/www/zendeskgame.michielrensen.nl/private/repo'" 1>&2; false; fi[0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49m664157aa[0m] Command: [0;34;49mif test ! -d /var/www/zendeskgame.michielrensen.nl/private/repo; then echo "Directory does not exist '/var/www/zendeskgame.michielrensen.nl/private/repo'" 1>&2; false; fi[0m
+[0;30;49mDEBUG[0m [[0;32;49me0473212[0m] Finished in 6.175 seconds with exit status 0 ([1;32;49msuccessful[0m).
+[0;34;49mINFO[0m [[0;32;49m7577ddcd[0m] Running [1;33;49m/usr/bin/env mkdir -p /var/www/zendeskgame.michielrensen.nl/private/releases/20150514115228[0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49m7577ddcd[0m] Command: [0;34;49mcd /var/www/zendeskgame.michielrensen.nl/private/repo && ( GIT_ASKPASS=/bin/echo GIT_SSH=/tmp/zendeskgame/git-ssh.sh /usr/bin/env mkdir -p /var/www/zendeskgame.michielrensen.nl/private/releases/20150514115228 )[0m
+[0;34;49mINFO[0m [[0;32;49m5b9e15bf[0m] Finished in 3.528 seconds with exit status 0 ([1;32;49msuccessful[0m).
+[0;34;49mINFO[0m [[0;32;49mcb03f081[0m] Running [1;33;49m/usr/bin/env git archive master | tar -x -f - -C /var/www/zendeskgame.michielrensen.nl/private/releases/20150514115228[0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49mcb03f081[0m] Command: [0;34;49mcd /var/www/zendeskgame.michielrensen.nl/private/repo && ( GIT_ASKPASS=/bin/echo GIT_SSH=/tmp/zendeskgame/git-ssh.sh /usr/bin/env git archive master | tar -x -f - -C /var/www/zendeskgame.michielrensen.nl/private/releases/20150514115228 )[0m
+[0;34;49mINFO[0m [[0;32;49m7d18ee19[0m] Finished in 4.332 seconds with exit status 0 ([1;32;49msuccessful[0m).
+[0;30;49mDEBUG[0m [[0;32;49m93ff8afb[0m] Running [1;33;49m/usr/bin/env if test ! -d /var/www/zendeskgame.michielrensen.nl/private/repo; then echo "Directory does not exist '/var/www/zendeskgame.michielrensen.nl/private/repo'" 1>&2; false; fi[0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49m93ff8afb[0m] Command: [0;34;49mif test ! -d /var/www/zendeskgame.michielrensen.nl/private/repo; then echo "Directory does not exist '/var/www/zendeskgame.michielrensen.nl/private/repo'" 1>&2; false; fi[0m
+[0;30;49mDEBUG[0m [[0;32;49me922e0fd[0m] Finished in 3.378 seconds with exit status 0 ([1;32;49msuccessful[0m).
+[0;30;49mDEBUG[0m [[0;32;49m0d9d5e93[0m] Running [1;33;49m/usr/bin/env git rev-list --max-count=1 --abbrev-commit master[0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49m0d9d5e93[0m] Command: [0;34;49mcd /var/www/zendeskgame.michielrensen.nl/private/repo && ( GIT_ASKPASS=/bin/echo GIT_SSH=/tmp/zendeskgame/git-ssh.sh /usr/bin/env git rev-list --max-count=1 --abbrev-commit master )[0m
+[0;30;49mDEBUG[0m [[0;32;49m2f724080[0m] [0;32;49m	0ad8bd8
+[0m[0;30;49mDEBUG[0m [[0;32;49mb0a29b9b[0m] [0;32;49m	0ad8bd8
+[0m[0;30;49mDEBUG[0m [[0;32;49mb0a29b9b[0m] Finished in 3.566 seconds with exit status 0 ([1;32;49msuccessful[0m).
+[0;30;49mDEBUG[0m [[0;32;49m8e06693f[0m] Running [1;33;49m/usr/bin/env if test ! -d /var/www/zendeskgame.michielrensen.nl/private/releases/20150514115228; then echo "Directory does not exist '/var/www/zendeskgame.michielrensen.nl/private/releases/20150514115228'" 1>&2; false; fi[0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49m8e06693f[0m] Command: [0;34;49mif test ! -d /var/www/zendeskgame.michielrensen.nl/private/releases/20150514115228; then echo "Directory does not exist '/var/www/zendeskgame.michielrensen.nl/private/releases/20150514115228'" 1>&2; false; fi[0m
+[0;30;49mDEBUG[0m [[0;32;49m237d5b9c[0m] Finished in 3.420 seconds with exit status 0 ([1;32;49msuccessful[0m).
+[0;34;49mINFO[0m [[0;32;49m4b398de0[0m] Running [1;33;49m/usr/bin/env echo "0ad8bd8" >> REVISION[0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49m4b398de0[0m] Command: [0;34;49mcd /var/www/zendeskgame.michielrensen.nl/private/releases/20150514115228 && /usr/bin/env echo "0ad8bd8" >> REVISION[0m
+[0;34;49mINFO[0m [[0;32;49m1c34a025[0m] Finished in 3.758 seconds with exit status 0 ([1;32;49msuccessful[0m).
+[0;34;49mINFO[0m [[0;32;49mb066e726[0m] Running [1;33;49m/usr/bin/env mkdir -p /var/www/zendeskgame.michielrensen.nl/private/releases/20150514115228[0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49mb066e726[0m] Command: [0;34;49m/usr/bin/env mkdir -p /var/www/zendeskgame.michielrensen.nl/private/releases/20150514115228[0m
+[0;34;49mINFO[0m [[0;32;49md4c65be1[0m] Finished in 3.678 seconds with exit status 0 ([1;32;49msuccessful[0m).
+[0;30;49mDEBUG[0m [[0;32;49m02da743d[0m] Running [1;33;49m/usr/bin/env [ -L /var/www/zendeskgame.michielrensen.nl/private/releases/20150514115228/.env ][0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49m02da743d[0m] Command: [0;34;49m[ -L /var/www/zendeskgame.michielrensen.nl/private/releases/20150514115228/.env ][0m
+[0;30;49mDEBUG[0m [[0;32;49m8d8747ed[0m] Finished in 3.224 seconds with exit status 1 ([1;31;49mfailed[0m).
+[0;30;49mDEBUG[0m [[0;32;49m65cf1308[0m] Running [1;33;49m/usr/bin/env [ -f /var/www/zendeskgame.michielrensen.nl/private/releases/20150514115228/.env ][0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49m65cf1308[0m] Command: [0;34;49m[ -f /var/www/zendeskgame.michielrensen.nl/private/releases/20150514115228/.env ][0m
+[0;30;49mDEBUG[0m [[0;32;49mce8ea74f[0m] Finished in 15.874 seconds with exit status 1 ([1;31;49mfailed[0m).
+[0;34;49mINFO[0m [[0;32;49m5b407bd1[0m] Running [1;33;49m/usr/bin/env ln -s /var/www/zendeskgame.michielrensen.nl/private/shared/.env /var/www/zendeskgame.michielrensen.nl/private/releases/20150514115228/.env[0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49m5b407bd1[0m] Command: [0;34;49m/usr/bin/env ln -s /var/www/zendeskgame.michielrensen.nl/private/shared/.env /var/www/zendeskgame.michielrensen.nl/private/releases/20150514115228/.env[0m
+[0;34;49mINFO[0m [[0;32;49m3fd2b5a3[0m] Finished in 3.605 seconds with exit status 0 ([1;32;49msuccessful[0m).
+[0;30;49mDEBUG[0m [[0;32;49m05db9e14[0m] Running [1;33;49m/usr/bin/env if test ! -d /var/www/zendeskgame.michielrensen.nl/private/releases/20150514115228; then echo "Directory does not exist '/var/www/zendeskgame.michielrensen.nl/private/releases/20150514115228'" 1>&2; false; fi[0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49m05db9e14[0m] Command: [0;34;49mif test ! -d /var/www/zendeskgame.michielrensen.nl/private/releases/20150514115228; then echo "Directory does not exist '/var/www/zendeskgame.michielrensen.nl/private/releases/20150514115228'" 1>&2; false; fi[0m
+[0;30;49mDEBUG[0m [[0;32;49m2f8d52cf[0m] Finished in 3.590 seconds with exit status 0 ([1;32;49msuccessful[0m).
+[0;34;49mINFO[0m [[0;32;49mc94b0918[0m] Running [1;33;49m/usr/bin/env composer install --no-dev --no-interaction --prefer-dist --optimize-autoloader[0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49mc94b0918[0m] Command: [0;34;49mcd /var/www/zendeskgame.michielrensen.nl/private/releases/20150514115228 && /usr/bin/env composer install --no-dev --no-interaction --prefer-dist --optimize-autoloader[0m
+[0;30;49mDEBUG[0m [[0;32;49m683261aa[0m] [0;32;49m	Warning: This development build of composer is over 30 days old. It is recommended to update it by running "/usr/local/bin/composer self-update" to get the latest version.
+[0m[0;30;49mDEBUG[0m [[0;32;49mb0a733d5[0m] [0;32;49m	Loading composer repositories with package information
+[0m[0;30;49mDEBUG[0m [[0;32;49m3ba7ed7f[0m] [0;32;49m	Installing dependencies from lock file
+[0m[0;30;49mDEBUG[0m [[0;32;49md8bd56be[0m] [0;32;49m	  - Installing doctrine/lexer (v1.0.1)
+[0m[0;30;49mDEBUG[0m [[0;32;49m97286f18[0m] [0;32;49m	    Downloading: connection...[0m
+[0;30;49mDEBUG[0m [[0;32;49m4bdbcb9a[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m509fafb1[0m] [0;32;49m	    Downloading: 0%[0m
+[0;30;49mDEBUG[0m [[0;32;49m88e8d5b9[0m] [0;32;49m	           [0m
+[0;30;49mDEBUG[0m [[0;32;49m255cbf08[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49me46b9268[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m188c2117[0m] [0;32;49m	    Downloading: 100%[0m
+[0;30;49mDEBUG[0m [[0;32;49m21e66c72[0m] [0;32;49m	
+[0m[0;30;49mDEBUG[0m [[0;32;49m5d24cf89[0m] [0;32;49m	
+[0m[0;30;49mDEBUG[0m [[0;32;49m43d5540d[0m] [0;32;49m	  - Installing doctrine/annotations (v1.2.4)
+[0m[0;30;49mDEBUG[0m [[0;32;49m3f22e356[0m] [0;32;49m	    Downloading: connection...[0m
+[0;30;49mDEBUG[0m [[0;32;49me81e5335[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m4ace3008[0m] [0;32;49m	    Downloading: 0%[0m
+[0;30;49mDEBUG[0m [[0;32;49mc503ea03[0m] [0;32;49m	           [0m
+[0;30;49mDEBUG[0m [[0;32;49m04d79314[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m801d3081[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49ma6e89136[0m] [0;32;49m	    Downloading: 10%[0m
+[0;30;49mDEBUG[0m [[0;32;49mba3dc597[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49ma04f1255[0m] [0;32;49m	    Downloading: 20%[0m
+[0;30;49mDEBUG[0m [[0;32;49mb7dbc7a4[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49mb0e3bf9c[0m] [0;32;49m	    Downloading: 30%[0m
+[0;30;49mDEBUG[0m [[0;32;49m7cfcc532[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49mc1cf0715[0m] [0;32;49m	    Downloading: 40%[0m
+[0;30;49mDEBUG[0m [[0;32;49m7f971851[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m4f1324c7[0m] [0;32;49m	    Downloading: 50%[0m
+[0;30;49mDEBUG[0m [[0;32;49m1b77591a[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m4bf7912b[0m] [0;32;49m	    Downloading: 60%[0m
+[0;30;49mDEBUG[0m [[0;32;49m48b091d0[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m678db295[0m] [0;32;49m	    Downloading: 70%[0m
+[0;30;49mDEBUG[0m [[0;32;49mb4baa5f1[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49mf2d769e2[0m] [0;32;49m	    Downloading: 80%[0m
+[0;30;49mDEBUG[0m [[0;32;49m61e3f541[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49mcee01ccb[0m] [0;32;49m	    Downloading: 90%[0m
+[0;30;49mDEBUG[0m [[0;32;49mc4f37bff[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m752b18ee[0m] [0;32;49m	    Downloading: 100%[0m
+[0;30;49mDEBUG[0m [[0;32;49m9943b34f[0m] [0;32;49m	
+[0m[0;30;49mDEBUG[0m [[0;32;49m50113e81[0m] [0;32;49m	
+[0m[0;30;49mDEBUG[0m [[0;32;49m6a18db1f[0m] [0;32;49m	  - Installing doctrine/cache (v1.4.1)
+[0m[0;30;49mDEBUG[0m [[0;32;49ma7fc8194[0m] [0;32;49m	    Downloading: connection...[0m
+[0;30;49mDEBUG[0m [[0;32;49me1163be9[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49mc0f983ff[0m] [0;32;49m	    Downloading: 0%[0m
+[0;30;49mDEBUG[0m [[0;32;49m657de4ef[0m] [0;32;49m	           [0m
+[0;30;49mDEBUG[0m [[0;32;49ma917d8ce[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m5b90d437[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m0b4fa634[0m] [0;32;49m	    Downloading: 15%[0m
+[0;30;49mDEBUG[0m [[0;32;49m8e4ab765[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m82a72e62[0m] [0;32;49m	    Downloading: 20%[0m
+[0;30;49mDEBUG[0m [[0;32;49m3dccbe18[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49mfdfead0a[0m] [0;32;49m	    Downloading: 35%[0m
+[0;30;49mDEBUG[0m [[0;32;49m10c1390b[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m7f67b3eb[0m] [0;32;49m	    Downloading: 50%[0m
+[0;30;49mDEBUG[0m [[0;32;49md24c0607[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49me0fa65e4[0m] [0;32;49m	    Downloading: 55%[0m
+[0;30;49mDEBUG[0m [[0;32;49m03d3dac5[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m9ed74db8[0m] [0;32;49m	    Downloading: 70%[0m
+[0;30;49mDEBUG[0m [[0;32;49m7e1a3350[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49me35b53bf[0m] [0;32;49m	    Downloading: 85%[0m
+[0;30;49mDEBUG[0m [[0;32;49mac6178f6[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m7bdfa8e0[0m] [0;32;49m	    Downloading: 90%[0m
+[0;30;49mDEBUG[0m [[0;32;49mb4ac4d1d[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m2954ba97[0m] [0;32;49m	    Downloading: 100%[0m
+[0;30;49mDEBUG[0m [[0;32;49mf6fc4c36[0m] [0;32;49m	
+[0m[0;30;49mDEBUG[0m [[0;32;49mc6026daf[0m] [0;32;49m	
+[0m[0;30;49mDEBUG[0m [[0;32;49m47556533[0m] [0;32;49m	  - Installing doctrine/collections (v1.3.0)
+[0m[0;30;49mDEBUG[0m [[0;32;49m169514b8[0m] [0;32;49m	    Downloading: connection...[0m
+[0;30;49mDEBUG[0m [[0;32;49m4ae1f558[0m] [0;32;49m	    Downloading: 0%               Downloading: 20%[0m
+[0;30;49mDEBUG[0m [[0;32;49m040f6b50[0m] [0;32;49m	    Downloading: 45%    Downloading: 65%    Downloading: 85%    Downloading: 100%
+[0m[0;30;49mDEBUG[0m [[0;32;49mc72ad486[0m] [0;32;49m	
+[0m[0;30;49mDEBUG[0m [[0;32;49me5c1e078[0m] [0;32;49m	  - Installing doctrine/inflector (v1.0.1)
+[0m[0;30;49mDEBUG[0m [[0;32;49m78774ab4[0m] [0;32;49m	    Downloading: connection...[0m
+[0;30;49mDEBUG[0m [[0;32;49m8df60108[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m50804f12[0m] [0;32;49m	    Downloading: 0%[0m
+[0;30;49mDEBUG[0m [[0;32;49m80f61a00[0m] [0;32;49m	           [0m
+[0;30;49mDEBUG[0m [[0;32;49m042b9bd0[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m18abfed6[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49mef14208c[0m] [0;32;49m	    Downloading: 60%[0m
+[0;30;49mDEBUG[0m [[0;32;49m362c7644[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m1b262f35[0m] [0;32;49m	    Downloading: 100%[0m
+[0;30;49mDEBUG[0m [[0;32;49me2a59f2a[0m] [0;32;49m	
+[0m[0;30;49mDEBUG[0m [[0;32;49mb7907a4f[0m] [0;32;49m	
+[0m[0;30;49mDEBUG[0m [[0;32;49m6066feeb[0m] [0;32;49m	  - Installing doctrine/common (v2.5.0)
+[0m[0;30;49mDEBUG[0m [[0;32;49me2ebf6d0[0m] [0;32;49m	    Downloading: connection...[0m
+[0;30;49mDEBUG[0m [[0;32;49me3f8d3f2[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m8d4055a0[0m] [0;32;49m	    Downloading: 0%[0m
+[0;30;49mDEBUG[0m [[0;32;49mb14b2f55[0m] [0;32;49m	           [0m
+[0;30;49mDEBUG[0m [[0;32;49m658dd1d1[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m6315b4c0[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49md5058c43[0m] [0;32;49m	    Downloading: 5%[0m
+[0;30;49mDEBUG[0m [[0;32;49md58d6b4e[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m13f1e74a[0m] [0;32;49m	    Downloading: 10%[0m
+[0;30;49mDEBUG[0m [[0;32;49m2c9fee57[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49mb6cf7889[0m] [0;32;49m	    Downloading: 15%[0m
+[0;30;49mDEBUG[0m [[0;32;49m283a32c9[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m14ca3915[0m] [0;32;49m	    Downloading: 20%[0m
+[0;30;49mDEBUG[0m [[0;32;49m5179d663[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49mc4f9259a[0m] [0;32;49m	    Downloading: 25%[0m
+[0;30;49mDEBUG[0m [[0;32;49m76a17f35[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m2a6cecd4[0m] [0;32;49m	    Downloading: 30%[0m
+[0;30;49mDEBUG[0m [[0;32;49m3f73d232[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49mc44ea216[0m] [0;32;49m	    Downloading: 35%[0m
+[0;30;49mDEBUG[0m [[0;32;49m4b55d4d5[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49mc013fcbd[0m] [0;32;49m	    Downloading: 40%[0m
+[0;30;49mDEBUG[0m [[0;32;49mc0e09dcf[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49md598a25f[0m] [0;32;49m	    Downloading: 45%[0m
+[0;30;49mDEBUG[0m [[0;32;49m86450814[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m8b3b8ba5[0m] [0;32;49m	    Downloading: 50%[0m
+[0;30;49mDEBUG[0m [[0;32;49m1a3d8f78[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m507a2f38[0m] [0;32;49m	    Downloading: 55%[0m
+[0;30;49mDEBUG[0m [[0;32;49mfa5d1b3f[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m5fb00b94[0m] [0;32;49m	    Downloading: 60%[0m
+[0;30;49mDEBUG[0m [[0;32;49mf55cd794[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m659d8553[0m] [0;32;49m	    Downloading: 65%[0m
+[0;30;49mDEBUG[0m [[0;32;49m64c77b43[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49mcb04bcbb[0m] [0;32;49m	    Downloading: 70%[0m
+[0;30;49mDEBUG[0m [[0;32;49m4ea3d281[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49mfab7729e[0m] [0;32;49m	    Downloading: 75%[0m
+[0;30;49mDEBUG[0m [[0;32;49m4da3bb54[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m4b8d0f8e[0m] [0;32;49m	    Downloading: 80%[0m
+[0;30;49mDEBUG[0m [[0;32;49m9fe2fdc4[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m34b198b0[0m] [0;32;49m	    Downloading: 85%[0m
+[0;30;49mDEBUG[0m [[0;32;49m83a41e17[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49mdbdfbe44[0m] [0;32;49m	    Downloading: 90%[0m
+[0;30;49mDEBUG[0m [[0;32;49m5b498c35[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49mf2d5ee1c[0m] [0;32;49m	    Downloading: 95%[0m
+[0;30;49mDEBUG[0m [[0;32;49m40a7ef64[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49mbe816872[0m] [0;32;49m	    Downloading: 100%[0m
+[0;30;49mDEBUG[0m [[0;32;49m9371d130[0m] [0;32;49m	
+[0m[0;30;49mDEBUG[0m [[0;32;49md1ab8c89[0m] [0;32;49m	
+[0m[0;30;49mDEBUG[0m [[0;32;49mf7ff18f1[0m] [0;32;49m	  - Installing doctrine/dbal (v2.5.1)
+[0m[0;30;49mDEBUG[0m [[0;32;49m1361d158[0m] [0;32;49m	    Downloading: connection...[0m
+[0;30;49mDEBUG[0m [[0;32;49m6a421b87[0m] [0;32;49m	    Downloading: 0%           [0m
+[0;30;49mDEBUG[0m [[0;32;49mc6a22b13[0m] [0;32;49m	    Downloading: 5%[0m
+[0;30;49mDEBUG[0m [[0;32;49m4b06220e[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m22471717[0m] [0;32;49m	    Downloading: 10%[0m
+[0;30;49mDEBUG[0m [[0;32;49m409f8308[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m5f9f288a[0m] [0;32;49m	    Downloading: 15%[0m
+[0;30;49mDEBUG[0m [[0;32;49mb1f3a91d[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m6d19dddd[0m] [0;32;49m	    Downloading: 20%[0m
+[0;30;49mDEBUG[0m [[0;32;49m0e927d8c[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m0cb16895[0m] [0;32;49m	    Downloading: 25%[0m
+[0;30;49mDEBUG[0m [[0;32;49m16bcf5c2[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49md087ba80[0m] [0;32;49m	    Downloading: 30%[0m
+[0;30;49mDEBUG[0m [[0;32;49m91305d62[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m1671a54f[0m] [0;32;49m	    Downloading: 35%[0m
+[0;30;49mDEBUG[0m [[0;32;49m98d63365[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m8a589dfa[0m] [0;32;49m	    Downloading: 40%[0m
+[0;30;49mDEBUG[0m [[0;32;49m7d13d929[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49me7d62de0[0m] [0;32;49m	    Downloading: 45%[0m
+[0;30;49mDEBUG[0m [[0;32;49maf72c1a9[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49mc54205ac[0m] [0;32;49m	    Downloading: 50%[0m
+[0;30;49mDEBUG[0m [[0;32;49m650acc63[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m52bd322c[0m] [0;32;49m	    Downloading: 55%[0m
+[0;30;49mDEBUG[0m [[0;32;49med2bafcd[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m4ea3a10b[0m] [0;32;49m	    Downloading: 60%[0m
+[0;30;49mDEBUG[0m [[0;32;49m3548a711[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m31b5927c[0m] [0;32;49m	    Downloading: 65%[0m
+[0;30;49mDEBUG[0m [[0;32;49m6c550e72[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m149341be[0m] [0;32;49m	    Downloading: 80%[0m
+[0;30;49mDEBUG[0m [[0;32;49m55fe9463[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m599c9227[0m] [0;32;49m	    Downloading: 85%[0m
+[0;30;49mDEBUG[0m [[0;32;49m2b558229[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m541e044a[0m] [0;32;49m	    Downloading: 90%[0m
+[0;30;49mDEBUG[0m [[0;32;49mea308e5e[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49mc73aee73[0m] [0;32;49m	    Downloading: 95%[0m
+[0;30;49mDEBUG[0m [[0;32;49m17e5a839[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m058932dc[0m] [0;32;49m	    Downloading: 100%[0m
+[0;30;49mDEBUG[0m [[0;32;49m7c09b900[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49me3d91b1c[0m] [0;32;49m	    Downloading: 100%[0m
+[0;30;49mDEBUG[0m [[0;32;49m813fa761[0m] [0;32;49m	
+[0m[0;30;49mDEBUG[0m [[0;32;49m89a37177[0m] [0;32;49m	
+[0m[0;30;49mDEBUG[0m [[0;32;49mead4bfbd[0m] [0;32;49m	  - Installing seoshop/seoshop-php (v1.6.0)
+[0m[0;30;49mDEBUG[0m [[0;32;49m786f2386[0m] [0;32;49m	    Downloading: connection...[0m
+[0;30;49mDEBUG[0m [[0;32;49mdfdad0b8[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m1e2860b6[0m] [0;32;49m	    Downloading: 100%[0m
+[0;30;49mDEBUG[0m [[0;32;49m2b583144[0m] [0;32;49m	         [0m
+[0;30;49mDEBUG[0m [[0;32;49m168a6f03[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49mc4b15e53[0m] [0;32;49m	
+[0m[0;30;49mDEBUG[0m [[0;32;49maf056ea0[0m] [0;32;49m	
+[0m[0;30;49mDEBUG[0m [[0;32;49mf0c19551[0m] [0;32;49m	  - Installing symfony/routing (v2.6.7)
+[0m[0;30;49mDEBUG[0m [[0;32;49m2f11c7f2[0m] [0;32;49m	    Downloading: connection...[0m
+[0;30;49mDEBUG[0m [[0;32;49m0d74d72e[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m0bcf74a6[0m] [0;32;49m	    Downloading: 0%[0m
+[0;30;49mDEBUG[0m [[0;32;49m4b9b6a80[0m] [0;32;49m	           [0m
+[0;30;49mDEBUG[0m [[0;32;49m454d2310[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m6535d0cb[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m2d95ef21[0m] [0;32;49m	    Downloading: 5%[0m
+[0;30;49mDEBUG[0m [[0;32;49me833fd45[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m2e30943d[0m] [0;32;49m	    Downloading: 10%[0m
+[0;30;49mDEBUG[0m [[0;32;49m40528150[0m] [0;32;49m	    Downloading: 15%    Downloading: 20%    Downloading: 25%[0m
+[0;30;49mDEBUG[0m [[0;32;49m443c7262[0m] [0;32;49m	    Downloading: 35%    Downloading: 40%    Downloading: 45%    Downloading: 50%    Downloading: 60%    Downloading: 65%[0m
+[0;30;49mDEBUG[0m [[0;32;49mcd17a99c[0m] [0;32;49m	    Downloading: 70%    Downloading: 75%    Downloading: 80%    Downloading: 85%    Downloading: 90%[0m
+[0;30;49mDEBUG[0m [[0;32;49ma5505f1a[0m] [0;32;49m	    Downloading: 95%[0m
+[0;30;49mDEBUG[0m [[0;32;49m20a98d18[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m46e357a2[0m] [0;32;49m	    Downloading: 100%[0m
+[0;30;49mDEBUG[0m [[0;32;49mb5fbd357[0m] [0;32;49m	
+[0m[0;30;49mDEBUG[0m [[0;32;49mb4cf3947[0m] [0;32;49m	
+[0m[0;30;49mDEBUG[0m [[0;32;49m1b9bd4fb[0m] [0;32;49m	  - Installing symfony/http-foundation (v2.6.7)
+[0m[0;30;49mDEBUG[0m [[0;32;49m6e8acb3f[0m] [0;32;49m	    Downloading: connection...[0m
+[0;30;49mDEBUG[0m [[0;32;49md9f5dc27[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49me3aaa07b[0m] [0;32;49m	    Downloading: 0%[0m
+[0;30;49mDEBUG[0m [[0;32;49m37f90ea6[0m] [0;32;49m	           [0m
+[0;30;49mDEBUG[0m [[0;32;49ma526094a[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m41f88d7e[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m1796e605[0m] [0;32;49m	    Downloading: 5%[0m
+[0;30;49mDEBUG[0m [[0;32;49m433ef34a[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m03b3d9d9[0m] [0;32;49m	    Downloading: 10%[0m
+[0;30;49mDEBUG[0m [[0;32;49m7d086775[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49mfd011c4c[0m] [0;32;49m	    Downloading: 15%[0m
+[0;30;49mDEBUG[0m [[0;32;49mb918fb63[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m8a347046[0m] [0;32;49m	    Downloading: 20%[0m
+[0;30;49mDEBUG[0m [[0;32;49m9a65d569[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m155efab5[0m] [0;32;49m	    Downloading: 25%[0m
+[0;30;49mDEBUG[0m [[0;32;49m59662d81[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m1ee9cc0a[0m] [0;32;49m	    Downloading: 30%[0m
+[0;30;49mDEBUG[0m [[0;32;49mffbade91[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m4c8bf8c9[0m] [0;32;49m	    Downloading: 35%[0m
+[0;30;49mDEBUG[0m [[0;32;49m43247c6f[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m46838a62[0m] [0;32;49m	    Downloading: 40%[0m
+[0;30;49mDEBUG[0m [[0;32;49m9fdba29c[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m0b34839f[0m] [0;32;49m	    Downloading: 45%[0m
+[0;30;49mDEBUG[0m [[0;32;49m81c0807d[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m6011d73c[0m] [0;32;49m	    Downloading: 50%[0m
+[0;30;49mDEBUG[0m [[0;32;49m58f07665[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m3e756f54[0m] [0;32;49m	    Downloading: 55%[0m
+[0;30;49mDEBUG[0m [[0;32;49m97ef7e01[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49mcf11ccfb[0m] [0;32;49m	    Downloading: 60%[0m
+[0;30;49mDEBUG[0m [[0;32;49m4c062f7c[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m907aabcb[0m] [0;32;49m	    Downloading: 65%[0m
+[0;30;49mDEBUG[0m [[0;32;49mee946077[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m5942eb9e[0m] [0;32;49m	    Downloading: 70%[0m
+[0;30;49mDEBUG[0m [[0;32;49mef6d1d76[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49mdea78a10[0m] [0;32;49m	    Downloading: 75%[0m
+[0;30;49mDEBUG[0m [[0;32;49me812c4d7[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m971541bf[0m] [0;32;49m	    Downloading: 80%[0m
+[0;30;49mDEBUG[0m [[0;32;49m581d81aa[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m744eab11[0m] [0;32;49m	    Downloading: 85%[0m
+[0;30;49mDEBUG[0m [[0;32;49mcdbeac88[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m4d4ebcc8[0m] [0;32;49m	    Downloading: 90%[0m
+[0;30;49mDEBUG[0m [[0;32;49m4149e67c[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49mb54b65d0[0m] [0;32;49m	    Downloading: 95%[0m
+[0;30;49mDEBUG[0m [[0;32;49ma0be417a[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m0ee3a22b[0m] [0;32;49m	    Downloading: 100%[0m
+[0;30;49mDEBUG[0m [[0;32;49mce648f0e[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m42ca25e1[0m] [0;32;49m	    Downloading: 100%[0m
+[0;30;49mDEBUG[0m [[0;32;49m5d88cbdd[0m] [0;32;49m	
+[0m[0;30;49mDEBUG[0m [[0;32;49maf5bf730[0m] [0;32;49m	
+[0m[0;30;49mDEBUG[0m [[0;32;49me34127b3[0m] [0;32;49m	  - Installing symfony/event-dispatcher (v2.6.7)
+[0m[0;30;49mDEBUG[0m [[0;32;49mf010925e[0m] [0;32;49m	    Downloading: connection...[0m
+[0;30;49mDEBUG[0m [[0;32;49mdfa80997[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m7f4139d2[0m] [0;32;49m	    Downloading: 0%[0m
+[0;30;49mDEBUG[0m [[0;32;49m7852c651[0m] [0;32;49m	           [0m
+[0;30;49mDEBUG[0m [[0;32;49mc22e8681[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m0c714c7e[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49me45c86d7[0m] [0;32;49m	    Downloading: 5%[0m
+[0;30;49mDEBUG[0m [[0;32;49m65036602[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49mb16caa94[0m] [0;32;49m	    Downloading: 10%[0m
+[0;30;49mDEBUG[0m [[0;32;49m620c4504[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m86059af7[0m] [0;32;49m	    Downloading: 15%[0m
+[0;30;49mDEBUG[0m [[0;32;49m833bd845[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m9dca5fcf[0m] [0;32;49m	    Downloading: 100%[0m
+[0;30;49mDEBUG[0m [[0;32;49m1afd9464[0m] [0;32;49m	
+[0m[0;30;49mDEBUG[0m [[0;32;49m30b5ad5d[0m] [0;32;49m	
+[0m[0;30;49mDEBUG[0m [[0;32;49m9ff2ba0d[0m] [0;32;49m	  - Installing psr/log (1.0.0)
+[0m[0;30;49mDEBUG[0m [[0;32;49mdadc3867[0m] [0;32;49m	    Loading from cache
+[0m[0;30;49mDEBUG[0m [[0;32;49m8992fa76[0m] [0;32;49m	
+[0m[0;30;49mDEBUG[0m [[0;32;49m7f76fbfd[0m] [0;32;49m	  - Installing symfony/debug (v2.6.7)
+[0m[0;30;49mDEBUG[0m [[0;32;49m2fb9dd0b[0m] [0;32;49m	    Downloading: connection...[0m
+[0;30;49mDEBUG[0m [[0;32;49mb5157af6[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m6a96e3f8[0m] [0;32;49m	    Downloading: 0%[0m
+[0;30;49mDEBUG[0m [[0;32;49m616cf863[0m] [0;32;49m	           [0m
+[0;30;49mDEBUG[0m [[0;32;49m87f0bb0f[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m123cea88[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m9d4ec67e[0m] [0;32;49m	    Downloading: 5%[0m
+[0;30;49mDEBUG[0m [[0;32;49m7942a06c[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49mc2aa37eb[0m] [0;32;49m	    Downloading: 35%[0m
+[0;30;49mDEBUG[0m [[0;32;49m6ff5c752[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49mdd992d87[0m] [0;32;49m	    Downloading: 40%[0m
+[0;30;49mDEBUG[0m [[0;32;49m0d06accf[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m9915aa4e[0m] [0;32;49m	    Downloading: 45%[0m
+[0;30;49mDEBUG[0m [[0;32;49m98939d22[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m33ce9ede[0m] [0;32;49m	    Downloading: 50%[0m
+[0;30;49mDEBUG[0m [[0;32;49m052ad076[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49mc10c8c3a[0m] [0;32;49m	    Downloading: 80%[0m
+[0;30;49mDEBUG[0m [[0;32;49m1c223e34[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49mc895a707[0m] [0;32;49m	    Downloading: 85%[0m
+[0;30;49mDEBUG[0m [[0;32;49m657db492[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m7d34de30[0m] [0;32;49m	    Downloading: 90%[0m
+[0;30;49mDEBUG[0m [[0;32;49mb3a9d8ce[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m5aad0781[0m] [0;32;49m	    Downloading: 100%[0m
+[0;30;49mDEBUG[0m [[0;32;49m0bf570eb[0m] [0;32;49m	
+[0m[0;30;49mDEBUG[0m [[0;32;49m68cadd4c[0m] [0;32;49m	
+[0m[0;30;49mDEBUG[0m [[0;32;49m55f370a1[0m] [0;32;49m	  - Installing symfony/http-kernel (v2.6.7)
+[0m[0;30;49mDEBUG[0m [[0;32;49m275bf75e[0m] [0;32;49m	    Downloading: connection...[0m
+[0;30;49mDEBUG[0m [[0;32;49m0453b4d4[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m76408b6e[0m] [0;32;49m	    Downloading: 0%[0m
+[0;30;49mDEBUG[0m [[0;32;49m1319721b[0m] [0;32;49m	           [0m
+[0;30;49mDEBUG[0m [[0;32;49m3bf6268f[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m8f99aba8[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m2edbf297[0m] [0;32;49m	    Downloading: 5%[0m
+[0;30;49mDEBUG[0m [[0;32;49m6118da40[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49maa0366cc[0m] [0;32;49m	    Downloading: 10%[0m
+[0;30;49mDEBUG[0m [[0;32;49m4d9b1a53[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49mff942bb6[0m] [0;32;49m	    Downloading: 15%[0m
+[0;30;49mDEBUG[0m [[0;32;49mc3b75686[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m6ba336ae[0m] [0;32;49m	    Downloading: 20%[0m
+[0;30;49mDEBUG[0m [[0;32;49m15652709[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m31f55068[0m] [0;32;49m	    Downloading: 25%[0m
+[0;30;49mDEBUG[0m [[0;32;49mc3ffcc30[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m5a6b179d[0m] [0;32;49m	    Downloading: 30%[0m
+[0;30;49mDEBUG[0m [[0;32;49mc5818519[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49mdf9324d0[0m] [0;32;49m	    Downloading: 35%[0m
+[0;30;49mDEBUG[0m [[0;32;49mc4590280[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m747dc5d9[0m] [0;32;49m	    Downloading: 40%[0m
+[0;30;49mDEBUG[0m [[0;32;49m641c9b96[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m2d12b4bb[0m] [0;32;49m	    Downloading: 45%[0m
+[0;30;49mDEBUG[0m [[0;32;49m57e283c9[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49mb3010249[0m] [0;32;49m	    Downloading: 50%[0m
+[0;30;49mDEBUG[0m [[0;32;49m9265180d[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49mca2eb5a5[0m] [0;32;49m	    Downloading: 55%[0m
+[0;30;49mDEBUG[0m [[0;32;49m576aa9f8[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m7d5ec7ab[0m] [0;32;49m	    Downloading: 60%[0m
+[0;30;49mDEBUG[0m [[0;32;49m8e189ed0[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m4c16d7f6[0m] [0;32;49m	    Downloading: 65%[0m
+[0;30;49mDEBUG[0m [[0;32;49me9e8a7f6[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m78b1fd70[0m] [0;32;49m	    Downloading: 70%[0m
+[0;30;49mDEBUG[0m [[0;32;49mc8b60e38[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m59ee70a2[0m] [0;32;49m	    Downloading: 75%[0m
+[0;30;49mDEBUG[0m [[0;32;49md5d58510[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m020fd335[0m] [0;32;49m	    Downloading: 80%[0m
+[0;30;49mDEBUG[0m [[0;32;49mcccf4cc3[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49ma9a40373[0m] [0;32;49m	    Downloading: 85%[0m
+[0;30;49mDEBUG[0m [[0;32;49m6399e24d[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m83d5fbd3[0m] [0;32;49m	    Downloading: 90%[0m
+[0;30;49mDEBUG[0m [[0;32;49mf3c25cbd[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m74b111e8[0m] [0;32;49m	    Downloading: 95%[0m
+[0;30;49mDEBUG[0m [[0;32;49m6beb1732[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m39def862[0m] [0;32;49m	    Downloading: 100%[0m
+[0;30;49mDEBUG[0m [[0;32;49mf9a00ae1[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m2f8c935e[0m] [0;32;49m	    Downloading: 100%[0m
+[0;30;49mDEBUG[0m [[0;32;49m4eb9ef59[0m] [0;32;49m	
+[0m[0;30;49mDEBUG[0m [[0;32;49m2352c62d[0m] [0;32;49m	
+[0m[0;30;49mDEBUG[0m [[0;32;49m473b4ec4[0m] [0;32;49m	  - Installing pimple/pimple (v1.1.1)
+[0m[0;30;49mDEBUG[0m [[0;32;49m1b8216d3[0m] [0;32;49m	    Downloading: connection...[0m
+[0;30;49mDEBUG[0m [[0;32;49m66eed3a4[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49mee9cbbf5[0m] [0;32;49m	    Downloading: 0%[0m
+[0;30;49mDEBUG[0m [[0;32;49m8de91efb[0m] [0;32;49m	           [0m
+[0;30;49mDEBUG[0m [[0;32;49mb4d0d592[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m2a76a448[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m6eefd1e6[0m] [0;32;49m	    Downloading: 55%[0m
+[0;30;49mDEBUG[0m [[0;32;49md3c3c6c1[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m2a9414c5[0m] [0;32;49m	    Downloading: 100%[0m
+[0;30;49mDEBUG[0m [[0;32;49m2b2d46f3[0m] [0;32;49m	
+[0m[0;30;49mDEBUG[0m [[0;32;49m1dcd8c4f[0m] [0;32;49m	
+[0m[0;30;49mDEBUG[0m [[0;32;49ma2609dc2[0m] [0;32;49m	  - Installing silex/silex (v1.2.4)
+[0m[0;30;49mDEBUG[0m [[0;32;49mfd7871c5[0m] [0;32;49m	    Downloading: connection...[0m
+[0;30;49mDEBUG[0m [[0;32;49mdb500240[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m561d2075[0m] [0;32;49m	    Downloading: 0%[0m
+[0;30;49mDEBUG[0m [[0;32;49m878e8b47[0m] [0;32;49m	           [0m
+[0;30;49mDEBUG[0m [[0;32;49m62e843ea[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m22decfcc[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m68c07d42[0m] [0;32;49m	    Downloading: 5%[0m
+[0;30;49mDEBUG[0m [[0;32;49mae615b16[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49mfb85c592[0m] [0;32;49m	    Downloading: 10%[0m
+[0;30;49mDEBUG[0m [[0;32;49m73659997[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m950c3b3a[0m] [0;32;49m	    Downloading: 15%[0m
+[0;30;49mDEBUG[0m [[0;32;49m723914b6[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m6fe8a2c0[0m] [0;32;49m	    Downloading: 20%[0m
+[0;30;49mDEBUG[0m [[0;32;49mc89f093d[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49mb174a4c1[0m] [0;32;49m	    Downloading: 25%[0m
+[0;30;49mDEBUG[0m [[0;32;49m5dc8eb21[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49mf4d3138d[0m] [0;32;49m	    Downloading: 30%[0m
+[0;30;49mDEBUG[0m [[0;32;49m7d7eabc9[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49mb72cb543[0m] [0;32;49m	    Downloading: 35%[0m
+[0;30;49mDEBUG[0m [[0;32;49m871d503a[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m2f96da2a[0m] [0;32;49m	    Downloading: 40%[0m
+[0;30;49mDEBUG[0m [[0;32;49m4718b0af[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m4b61462b[0m] [0;32;49m	    Downloading: 45%[0m
+[0;30;49mDEBUG[0m [[0;32;49m24ad6041[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m90173fe4[0m] [0;32;49m	    Downloading: 50%[0m
+[0;30;49mDEBUG[0m [[0;32;49ma3626952[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49mb5323bca[0m] [0;32;49m	    Downloading: 55%[0m
+[0;30;49mDEBUG[0m [[0;32;49m2628fe67[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49mc85e0c6b[0m] [0;32;49m	    Downloading: 60%[0m
+[0;30;49mDEBUG[0m [[0;32;49m396af7d4[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49mb4fe7324[0m] [0;32;49m	    Downloading: 65%[0m
+[0;30;49mDEBUG[0m [[0;32;49mcbdcea8e[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m8143443c[0m] [0;32;49m	    Downloading: 70%[0m
+[0;30;49mDEBUG[0m [[0;32;49me1abd197[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49mec1ebf2c[0m] [0;32;49m	    Downloading: 75%[0m
+[0;30;49mDEBUG[0m [[0;32;49m5e3bf19e[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m41f6aca6[0m] [0;32;49m	    Downloading: 80%[0m
+[0;30;49mDEBUG[0m [[0;32;49m87878265[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49mc5fba727[0m] [0;32;49m	    Downloading: 85%[0m
+[0;30;49mDEBUG[0m [[0;32;49m5f080568[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49mf0b6387b[0m] [0;32;49m	    Downloading: 90%[0m
+[0;30;49mDEBUG[0m [[0;32;49m918fc036[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m759ca81e[0m] [0;32;49m	    Downloading: 95%[0m
+[0;30;49mDEBUG[0m [[0;32;49m8f09b7d6[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m047b862e[0m] [0;32;49m	    Downloading: 100%[0m
+[0;30;49mDEBUG[0m [[0;32;49ma08feb1c[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m6f8d2dbd[0m] [0;32;49m	    Downloading: 100%[0m
+[0;30;49mDEBUG[0m [[0;32;49m4a402b3c[0m] [0;32;49m	
+[0m[0;30;49mDEBUG[0m [[0;32;49mfbe503ec[0m] [0;32;49m	
+[0m[0;30;49mDEBUG[0m [[0;32;49mf9d4b41c[0m] [0;32;49m	  - Installing twig/twig (v1.18.1)
+[0m[0;30;49mDEBUG[0m [[0;32;49m6e117931[0m] [0;32;49m	    Downloading: connection...[0m
+[0;30;49mDEBUG[0m [[0;32;49m0f4e7f0a[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m6db11cb3[0m] [0;32;49m	    Downloading: 0%[0m
+[0;30;49mDEBUG[0m [[0;32;49m7790084e[0m] [0;32;49m	           [0m
+[0;30;49mDEBUG[0m [[0;32;49mcd789206[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m4df2e89a[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49md2741edb[0m] [0;32;49m	    Downloading: 5%[0m
+[0;30;49mDEBUG[0m [[0;32;49m99d8d9e4[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m2bc018ac[0m] [0;32;49m	    Downloading: 10%[0m
+[0;30;49mDEBUG[0m [[0;32;49m5969b786[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m86d78dad[0m] [0;32;49m	    Downloading: 15%[0m
+[0;30;49mDEBUG[0m [[0;32;49m02c22ed8[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49md6bd3f03[0m] [0;32;49m	    Downloading: 20%[0m
+[0;30;49mDEBUG[0m [[0;32;49mb4869796[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49mb7fc9cbb[0m] [0;32;49m	    Downloading: 25%[0m
+[0;30;49mDEBUG[0m [[0;32;49mcd7d2ce9[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m5a1ceb25[0m] [0;32;49m	    Downloading: 30%[0m
+[0;30;49mDEBUG[0m [[0;32;49mcd953aae[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49me65dbf3b[0m] [0;32;49m	    Downloading: 35%[0m
+[0;30;49mDEBUG[0m [[0;32;49m13c92ed9[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m917b2501[0m] [0;32;49m	    Downloading: 40%[0m
+[0;30;49mDEBUG[0m [[0;32;49m246a8574[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49md8eac9b0[0m] [0;32;49m	    Downloading: 45%[0m
+[0;30;49mDEBUG[0m [[0;32;49mc380cb8f[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m84d8f7f9[0m] [0;32;49m	    Downloading: 50%[0m
+[0;30;49mDEBUG[0m [[0;32;49m1c250cc6[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49me685433d[0m] [0;32;49m	    Downloading: 55%[0m
+[0;30;49mDEBUG[0m [[0;32;49m150595df[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49mef908223[0m] [0;32;49m	    Downloading: 60%[0m
+[0;30;49mDEBUG[0m [[0;32;49m91d0b8fd[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m61229b01[0m] [0;32;49m	    Downloading: 70%[0m
+[0;30;49mDEBUG[0m [[0;32;49mfb9688b9[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m28f58661[0m] [0;32;49m	    Downloading: 75%[0m
+[0;30;49mDEBUG[0m [[0;32;49m7d5bede9[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m89e9d4b2[0m] [0;32;49m	    Downloading: 80%[0m
+[0;30;49mDEBUG[0m [[0;32;49m2d06b444[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m7f3c5f39[0m] [0;32;49m	    Downloading: 85%[0m
+[0;30;49mDEBUG[0m [[0;32;49m27bd7b86[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49mfdb26474[0m] [0;32;49m	    Downloading: 90%[0m
+[0;30;49mDEBUG[0m [[0;32;49mafbd928a[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m37989c47[0m] [0;32;49m	    Downloading: 95%[0m
+[0;30;49mDEBUG[0m [[0;32;49m52b3edba[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m1d0f7ab9[0m] [0;32;49m	    Downloading: 100%[0m
+[0;30;49mDEBUG[0m [[0;32;49me28a0d1e[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49mf291f191[0m] [0;32;49m	    Downloading: 100%[0m
+[0;30;49mDEBUG[0m [[0;32;49mda72ed01[0m] [0;32;49m	
+[0m[0;30;49mDEBUG[0m [[0;32;49me703cfb0[0m] [0;32;49m	
+[0m[0;30;49mDEBUG[0m [[0;32;49m5a9ab9a3[0m] [0;32;49m	  - Installing zendesk/zendesk_api_client_php (dev-master fa6eff7)
+[0m[0;30;49mDEBUG[0m [[0;32;49m3d443266[0m] [0;32;49m	    Downloading: connection...[0m
+[0;30;49mDEBUG[0m [[0;32;49m25f04cd9[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49mc312bf26[0m] [0;32;49m	    Downloading: 100%[0m
+[0;30;49mDEBUG[0m [[0;32;49m7df3097e[0m] [0;32;49m	         [0m
+[0;30;49mDEBUG[0m [[0;32;49m82c3f965[0m] [0;32;49m	[0m
+[0;30;49mDEBUG[0m [[0;32;49m5170bac9[0m] [0;32;49m	
+[0m[0;30;49mDEBUG[0m [[0;32;49m341f7396[0m] [0;32;49m	
+[0m[0;30;49mDEBUG[0m [[0;32;49m651fb6c9[0m] [0;32;49m	Generating optimized autoload files
+[0m[0;30;49mDEBUG[0m [[0;32;49m8828db19[0m] [0;32;49m	Generating optimized autoload files
+[0m[0;34;49mINFO[0m [[0;32;49m8828db19[0m] Finished in 25.171 seconds with exit status 0 ([1;32;49msuccessful[0m).
+[0;34;49mINFO[0m [[0;32;49m919d8f1c[0m] Running [1;33;49m/usr/bin/env ln -s /var/www/zendeskgame.michielrensen.nl/private/releases/20150514115228 /var/www/zendeskgame.michielrensen.nl/private/releases/current[0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49m919d8f1c[0m] Command: [0;34;49m/usr/bin/env ln -s /var/www/zendeskgame.michielrensen.nl/private/releases/20150514115228 /var/www/zendeskgame.michielrensen.nl/private/releases/current[0m
+[0;34;49mINFO[0m [[0;32;49m99e76a87[0m] Finished in 6.593 seconds with exit status 0 ([1;32;49msuccessful[0m).
+[0;34;49mINFO[0m [[0;32;49m6c6189ba[0m] Running [1;33;49m/usr/bin/env mv /var/www/zendeskgame.michielrensen.nl/private/releases/current /var/www/zendeskgame.michielrensen.nl/private[0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49m6c6189ba[0m] Command: [0;34;49m/usr/bin/env mv /var/www/zendeskgame.michielrensen.nl/private/releases/current /var/www/zendeskgame.michielrensen.nl/private[0m
+[0;34;49mINFO[0m [[0;32;49m34018db3[0m] Finished in 4.282 seconds with exit status 0 ([1;32;49msuccessful[0m).
+[0;30;49mDEBUG[0m [[0;32;49mc20f4cc9[0m] Running [1;33;49m/usr/bin/env ls -xtr /var/www/zendeskgame.michielrensen.nl/private/releases[0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49mc20f4cc9[0m] Command: [0;34;49m/usr/bin/env ls -xtr /var/www/zendeskgame.michielrensen.nl/private/releases[0m
+[0;30;49mDEBUG[0m [[0;32;49ma2ed853b[0m] [0;32;49m	20150514115228
+[0m[0;30;49mDEBUG[0m [[0;32;49mc14b06cd[0m] [0;32;49m	20150514115228
+[0m[0;30;49mDEBUG[0m [[0;32;49mc14b06cd[0m] Finished in 3.991 seconds with exit status 0 ([1;32;49msuccessful[0m).
+[0;30;49mDEBUG[0m [[0;32;49m0d6df629[0m] Running [1;33;49m/usr/bin/env if test ! -d /var/www/zendeskgame.michielrensen.nl/private/releases; then echo "Directory does not exist '/var/www/zendeskgame.michielrensen.nl/private/releases'" 1>&2; false; fi[0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49m0d6df629[0m] Command: [0;34;49mif test ! -d /var/www/zendeskgame.michielrensen.nl/private/releases; then echo "Directory does not exist '/var/www/zendeskgame.michielrensen.nl/private/releases'" 1>&2; false; fi[0m
+[0;30;49mDEBUG[0m [[0;32;49m8f4036ee[0m] Finished in 6.629 seconds with exit status 0 ([1;32;49msuccessful[0m).
+[0;34;49mINFO[0m [[0;32;49m24227b0d[0m] Running [1;33;49m/usr/bin/env echo "Branch master (at 0ad8bd8) deployed as release 20150514115228 by michiel" >> /var/www/zendeskgame.michielrensen.nl/private/revisions.log[0m as [0;34;49mmichiel[0m@[0;34;49mzendeskgame.michielrensen.nl[0m
+[0;30;49mDEBUG[0m [[0;32;49m24227b0d[0m] Command: [0;34;49mecho "Branch master (at 0ad8bd8) deployed as release 20150514115228 by michiel" >> /var/www/zendeskgame.michielrensen.nl/private/revisions.log[0m
+[0;34;49mINFO[0m [[0;32;49me1c74f98[0m] Finished in 5.037 seconds with exit status 0 ([1;32;49msuccessful[0m).

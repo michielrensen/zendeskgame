@@ -1,35 +1,27 @@
 <?php
 
 require '../vendor/autoload.php';
-require '../config/app.php';
+Dotenv::load(__DIR__ . '../');
 
 $app = new Silex\Application();
-$app['debug'] = DEBUG;
+$app['debug'] = getenv('DEBUG');
 
 /* Registering services */
 
 $app->register(new Silex\Provider\DoctrineServiceProvider(), [
     'db.options' => [
         'driver'    => 'pdo_mysql',
-        'host'      => HOST,
-        'dbname'    => DATABASE,
-        'user'      => USERNAME,
-        'password'  => PASSWORD,
-        'charset'   => 'utf8',
+        'host'      => getenv('HOST'),
+        'dbname'    => getenv('DATABASE'),
+        'user'      => getenv('DB_USERNAME'),
+        'password'  => getenv('DB_PASSWORD'),
+        'charset'   => getenv('DB_CHARSET'),
     ]
 ]);
 
 $app->register(new Silex\Provider\ServiceControllerServiceProvider());
 $app->register(new Silex\Provider\TwigServiceProvider(), array(
     'twig.path' => __DIR__.'/../resources/views',
-));
-$app->register(new Knp\Provider\ConsoleServiceProvider(), array(
-    'console.name'              => 'Zendeskgame',
-    'console.version'           => '1.0.0',
-    'console.project_directory' => __DIR__.'/..'
-));
-$app->register(new Knp\Provider\MigrationServiceProvider(), array(
-    'migration.path' => __DIR__.'/../db/migration'
 ));
 
 /* Defining Dependencies */

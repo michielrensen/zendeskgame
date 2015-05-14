@@ -4,7 +4,8 @@
     "zendesk/zendesk_api_client_php": "dev-master",
     "silex/silex": "~1.2",
     "doctrine/dbal":"~2.2",
-    "twig/twig": "~1.18"
+    "twig/twig": "~1.18",
+    "vlucas/phpdotenv": "~1"
   },
   "require-dev": {
     "phpunit/phpunit": "4.6.*",
