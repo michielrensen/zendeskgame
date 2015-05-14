@@ -16,7 +16,7 @@ class WebhookController {
         $this->app = $app;
     }
 
-    public function handle($service)
+    public function handleAction($service)
     {
         return new Response($service);
     }
