@@ -13,7 +13,9 @@
   },
   "autoload" : {
     "psr-4": {
-      "Seoshop\\": "app/"
+      "App\\": "app/src/",
+      "Component\\Experience\\": "src/component/experience/src/",
+      "Component\\Service\\": "src/component/service/src"
     }
   },
   "minimum-stability": "dev",
