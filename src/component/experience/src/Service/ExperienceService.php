@@ -32,5 +32,4 @@ class ExperienceService
     {
         return $this->repository->mutate($userid, $mutation);
     }
-
 }

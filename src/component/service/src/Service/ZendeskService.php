@@ -15,7 +15,7 @@ class ZendeskService
         $this->client->setAuth('token', getenv('ZENDESK_TOKEN'));
     }
 
-    public function findById($id)
+    public function findTicketById($id)
     {
         return $this->client->tickets()->find(['id'=>$id, 'sideload'=>['users', 'groups']]);
     }

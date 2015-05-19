@@ -12,25 +12,20 @@ class WebhookController {
     /** @var $app Application */
     protected $app;
 
-    /** @var $service ZendeskService */
-    protected $service;
+    /** @var $zendeskService ZendeskService */
+    protected $zendeskService;
 
     public function __construct(Application $app)
     {
         $this->app = $app;
-        $this->service = $app['service.zendesk'];
+        $this->zendeskService = $app['service.zendesk'];
     }
 
-    public function handleAction(Request $request, $service)
+    public function handleZendeskAction(Request $request)
     {
         $payload = json_decode($request->request->get('payload'));
 
-        switch($service)
-        {
-            case 'zendesk':
-                $ticket = $this->service->findById($payload->id);
-                break;
-        }
+        $ticket = $this->zendeskService->findTicketById($payload->id);
 
         return new Response(json_encode($ticket, JSON_PRETTY_PRINT));
     }
