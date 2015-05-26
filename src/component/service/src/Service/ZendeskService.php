@@ -1,7 +1,9 @@
 <?php
 namespace Component\Service\Service;
 
+use Component\Service\ZendeskException;
 use Zendesk\API\Client;
+use Zendesk\API\ResponseException;
 
 class ZendeskService
 {
@@ -17,6 +19,13 @@ class ZendeskService
 
     public function findTicketById($id)
     {
-        return $this->client->tickets()->find(['id'=>$id, 'sideload'=>['users', 'groups']]);
+        try {
+            $ticket = $this->client->tickets()->find(['id'=>$id, 'sideload'=>['users', 'groups']]);
+            return $ticket->ticket;
+        }
+        catch(ResponseException $e)
+        {
+            throw new ZendeskException('Ticket could not be found');
+        }
     }
 }
