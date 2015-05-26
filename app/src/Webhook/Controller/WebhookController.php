@@ -25,8 +25,12 @@ class WebhookController {
     {
         $payload = json_decode($request->request->get('payload'));
 
-        $ticket = $this->zendeskService->findTicketById($payload->id);
+        if (isset($payload->id))
+        {
+            $ticket = $this->zendeskService->findTicketById($payload->id);
+            return new Response(json_encode($ticket, JSON_PRETTY_PRINT));
+        }
 
-        return new Response(json_encode($ticket, JSON_PRETTY_PRINT));
+        return new Response();
     }
 }
