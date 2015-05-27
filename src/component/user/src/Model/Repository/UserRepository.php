@@ -28,16 +28,15 @@ class UserRepository implements UserRepositoryInterface
     public function getSettings($userId)
     {
         $settings = [];
-        $this->connection->project(
-            $this->connection->prepare('
-            SELECT key,
-                   value
+        $this->connection->project('
+            SELECT `key`,
+                   `value`
               FROM user_settings
              WHERE user_id = ?
-            '),
+            ',
             [ (int) $userId ],
-            function($row) use($settings) {
-                $return[$row['key']] = $row['value'];
+            function($row) use(&$settings) {
+                $settings[$row['key']] = $row['value'];
             }
         );
 

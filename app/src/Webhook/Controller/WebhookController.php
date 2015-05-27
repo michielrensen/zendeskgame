@@ -2,23 +2,34 @@
 
 namespace App\Webhook\Controller;
 
+use Component\Experience\Service\ExperienceService;
 use Component\Service\Service\ZendeskService;
-use Silex\Application;
+use Component\Service\ZendeskException;
+use Component\User\Service\UserService;
+use Component\User\UserException;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
-class WebhookController {
-
-    /** @var $app Application */
-    protected $app;
-
+class WebhookController
+{
     /** @var $zendeskService ZendeskService */
     protected $zendeskService;
 
-    public function __construct(Application $app)
+    /** @var $userService UserService */
+    protected $userService;
+
+    /** @var $experienceService ExperienceService */
+    protected $experienceService;
+
+    public function __construct(
+        ZendeskService $zendeskService,
+        UserService $userService,
+        ExperienceService $experienceService
+    )
     {
-        $this->app = $app;
-        $this->zendeskService = $app['service.zendesk'];
+        $this->zendeskService    = $zendeskService;
+        $this->userService       = $userService;
+        $this->experienceService = $experienceService;
     }
 
     public function handleZendeskAction(Request $request)
@@ -27,8 +38,21 @@ class WebhookController {
 
         if (isset($payload->id))
         {
-            $ticket = $this->zendeskService->findTicketById($payload->id);
-            return new Response(json_encode($ticket, JSON_PRETTY_PRINT));
+            try {
+                $ticket = $this->zendeskService->findTicketById($payload->id);
+                $user = $this->userService->findUserBySetting('zendesk_user_id', $ticket->assignee_id);
+                $settings = $this->userService->getUserSettings($user['id']);
+            }
+            catch(ZendeskException $e)
+            {
+                return new Response($e->getMessage(), 404);
+            }
+            catch(UserException $e)
+            {
+                return new Response($e->getMessage(), 404);
+            }
+
+            return new Response(json_encode($settings, JSON_PRETTY_PRINT));
         }
 
         return new Response();

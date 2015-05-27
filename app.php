@@ -23,13 +23,31 @@ $app->register(new Silex\Provider\ServiceControllerServiceProvider());
 $app->register(new Silex\Provider\TwigServiceProvider(), ['twig.path' => __DIR__.'/resources/views',]);
 $app->register(new Component\Service\ServiceServiceProvider());
 $app->register(new Component\Experience\ExperienceServiceProvider());
+$app->register(new Component\User\UserServiceProvider());
 
 /* Controllers */
 
 $app['experience.controller'] = $app->share(function() use ($app) {
-    return new App\Experience\Controller\ExperienceController($app, $app['experience.repository']);
+    return new App\Experience\Controller\ExperienceController(
+        $app,
+        $app['experience.repository']
+    );
 });
 
 $app['webhook.controller'] = $app->share(function() use ($app) {
-    return new App\Webhook\Controller\WebhookController($app);
+    return new App\Webhook\Controller\WebhookController(
+        $app['service.zendesk'],
+        $app['service.user'],
+        $app['service.experience']
+    );
 });
+
+/* Routing */
+
+$app->get('/experience/', 'experience.controller:indexAction');
+$app->get('/experience/show/{userid}', 'experience.controller:showAction');
+$app->get('/experience/update/{userid}/{mutation}', 'experience.controller:updateAction');
+
+$app->post('/webhook/zendesk', 'webhook.controller:handleZendeskAction');
+
+return $app;

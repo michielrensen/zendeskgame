@@ -2,6 +2,7 @@
 namespace Component\Experience;
 
 use Component\Experience\Service\ExperienceService;
+use Component\Experience\Model\Repository\ExperienceRepository;
 
 class ExperienceServiceTest extends \PHPUnit_Framework_TestCase
 {
@@ -15,11 +16,13 @@ class ExperienceServiceTest extends \PHPUnit_Framework_TestCase
 
     public function setFixture()
     {
-        $this->fixture = null;
+        $experienceRepositoryMock = \Mockery::mock(ExperienceRepository::class);
+
+        $this->fixture = new ExperienceService($experienceRepositoryMock);
     }
 
-    public function testDummy()
+    public function testFixtureClass()
     {
-        $this->assertTrue(true);
+        $this->assertInstanceOf(ExperienceService::class, $this->fixture);
     }
 }
