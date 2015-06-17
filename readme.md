@@ -12,6 +12,5 @@ Install node modules
 
 ### While developing
 
-Run grunt to automatically compile stylesheets and javascript files
-```grunt```
+Run grunt to automatically compile stylesheets and javascript files `grunt`
 
