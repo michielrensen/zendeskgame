@@ -2,7 +2,7 @@
   "require" : {
     "seoshop/seoshop-php": "~1.5",
     "zendesk/zendesk_api_client_php": "dev-master",
-    "silex/silex": "~1.2",
+    "silex/silex": "~2.0",
     "doctrine/dbal":"~2.2",
     "twig/twig": "~1.18",
     "vlucas/phpdotenv": "~1"
