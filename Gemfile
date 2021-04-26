@@ -1,4 +1,4 @@
 source 'https://rubygems.org'
 
-gem 'capistrano', '~> 3.4.0'
+gem 'capistrano', '~> 3.16.0'
 gem 'airbrussh', :require => false
